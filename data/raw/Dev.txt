@@ -1,0 +1,2195 @@
+Performance test cache with large number of addresses/connections/links
+[#3484] : Load balance routes based on least connections
+[#3513] : component/console - frontend - Create Address Detail Page
+[#3516] : component/console - frontend - Create Addresses and download certificates for Address Space Detail
+[#3514] : component/console - frontend - Add filters and pagination for connection List
+"[#3515] : component/console - frontend - Enable mutations, filter and pagination to Address Space List"
+[#3517] : component/console - frontend - Enable Mutation and pagination for Addresses List
+Define IoT Personas
+Health check for the connection to the Infinispan server
+[OLM] Deploying AMQ Online to a custom namespace fails with security context constraint error
+Wire up internal services through qdrouter network
+Allow deploing and managing an infinispan cluster for the device registry
+Docs: Create an FAQ article for splash page
+[#3463] : CSV manifest is missing configmap finalizers permission
+[#3542] : Addresses stuck in configuring after api server restart
+[#3547] : Network policies not deleted when address space is deleted
+Docs: Document metrics and alerts
+Docs: remove issue for 1.3.2 RNs
+Docs: Sweep for references to old API
+Ensure enmasse metrics deployment can scrape hono metrics
+AMQ Online displays broken image icon displayed in Operator catalogue in some browsers
+Docs: Add Tech Preview note to new IoT assemblies downstream
+Add hostname information to web console
+As a Tenant Admin I want to Update the authentication service details on an existing address space
+[#3582] inconsistency between OpenAPI and code in messaging user model
+Update AMQ Online images to pick up nss nss-softokn nss-util security update RHSA :49269
+Release respins for 1.3 CVE-2019-11729 CVE-2019-11745
+Release respins for 1.2 CVE-2019-11729 CVE-2019-11745
+operators use tag for containerImage reference instead of digest
+IoT Designs
+[IoT Design] IoT Competitor Research - Bosch IoT
+[IoT Design] IoT Competitor Research - Azure IoT
+[IoT Design] IoT Competitor Research - IBM IoT
+[#5203] agent uses deprecated APIs
+[#3607] : Addressspaceplan validation errors not visible to end-user
+[#3610] : component/console - frontend - Create filters and actions for AddressList
+"[#3611] : component/console - frontend - Implement filters, creation wizard and actions for AddressSpaceList"
+[#3613] : component/console - frontend - Create connection detail components
+[#3612] : component/console - frontend - Implement filters and pagination for AddressDetail component
+[#3614] : component/console - frontend - Implement toolbars
+[IoT Design] Project List Design
+[IoT Design] Project Detail Design
+Bad formatting of diagram in AMQ Online documentation
+Productise hibernate-validator 6.1.0.Final
+Browser reload in console results in 404
+Represent temporary topic subscriptions in the address model
+read only authentication services API console [console mock server]
+read-only authentication services API for console
+[#3637] : Add support for pod disruption budgets
+[#3646] : Configure router anti-affinity by default
+[#3457] : Connection error to standard address space in openshift 4.3
+[#3474] : Uninstalling using bundle don't delete address-space-controller
+Document IoT metrics
+Review and refactor tenant validation implementation
+Design and implement JDBC based device registry
+Upgrade Hono to 1.0.2
+component/console - frontend - Handle actions for multiple selections in AddressList
+component/console - frontend - Error handling and Error message display
+component/console - frontend - CreateAddressSpace wizard non-uniform behaviour
+component/console - frontend - Filter selection displays an empty dropdown item
+component/console - frontend - CreateAddress wizard shows non-uniform behaviour
+"component/console - frontend - On selecting filters, two filter icons appear"
+component/console - frontend - Update link provided when no addresses are found
+component/console - frontend - non-uniform behaviour of ConnectionList and AddressSpaceList
+component/console - frontend - issue in filtering by text
+[systemtest] create api tests for console backend
+[systemtest] modify current test to use new console frontend
+[systemtest] create test for new frontend functionality
+component/console - frontend - Integrate user profile with server
+component/console - frontend - Integrate User Authentication Service on creating address spaces
+Create downstream image for console-server component
+Document uninstall using OLM
+Update AMQ broker image
+Upgrade AMQ interconnect image
+Improve reject behaviour for forwarding use-case
+[systemtest] create upgrade test for iot components
+Investigate and fix frequent IoTProject changes
+Console address detail page gives no ability determine which topic/subscription relation
+Create iot-tenant-cleaner image for downstream
+Blank page seen if connection is close whilst connection detail page is open
+address column ordering on the connection detail page not working
+Release respins for 1.3 CVE-2020-2583 CVE-2020-2590 CVE-2020-2593 CVE-2020-2601 CVE-2020-2604 CVE-2020-2654 CVE-2020-2655
+[#3670] : Upgrading from 0.30.2 to master stuck in restarting address-space-controller (4000 addresses)
+Allow address space spec changes
+Connection detail page fails for brokered address space
+[#3686] : Add metrics endpoint to controller-manager
+Investigate behavior of AMQ Online during upgrades
+console - remove old console route
+Use word 'partitions' rather than shards.
+Expose connection creation timestamp
+Connection detail page to use connection's hostname rather than id
+Use address on the address list page rather than name
+add server side smarts for the defaulting of the address's name from the address
+Calculate messages/sec for metrics such as message in
+Use monospace when displaying attributes that are commonly an UID
+"Hide ""stored messages"" for anycast/mutlicast address types"
+"Hide ""shards"" value for address types except queue"
+Add link uptimeSeconds attribute
+Addressspace reported as Failed during creation.
+Message in/out screen label
+Addressspace list - namespace is one word
+Create workflow - review hyperlink spurious
+Support disconnected installs from tag
+PlanStatus field of the Address.Status object may be null
+Address create workflow in brokered shows wrong address type selection
+Stored Message value shown in place of Partitions value shown on address details page
+Padlock icon in wrong state for TLS connection on connection detail page
+Page <title/> wrong on connection connection detail page
+Service catalog application link to console incorrect
+"Expose console-server memory size, session timeout for configuration via CR"
+"Namespace filter shows ""no results found"" for a namespace that exists"
+Improve addressspace status to show phase and messages
+Delete All button doesn't work
+Address Space Time Created ordering
+Accepted column missing from the connection details page
+Create 1.4 RNs
+[#3804] : Create alert for standard authentication service status
+[#3805] : Create an alert for enmasse-operator status
+[#3806] : Create an alert for console status
+"Spurious topic: "" "" in the address command preview"
+No visual feedback when commands are copied to the clipboard
+"""Delete All"" button label confusing"
+list page row kebab menu not fully visible
+[systemtest] re-test documentation steps
+[systemtest] testing epic for new console
+[systemtest] create scale tests for enmasse
+[systemtest] provide stable RHMI env for scale/performance tests
+[systemtest] write performance tests
+[systemtest] write metadata for new performance tests
+[systemtest] fix and write new metadata for console tests
+[systemtest] test suite for enmasse 1.0/amq-online 2.0
+[systemtest] write javadoc for tests
+[systemtest] refactor managers (shared and isolated)
+[systemtest] make default resources available in resource manager
+[systemtest] upstream CI
+[systemtest] run iot tests as part of smoke
+[systemtest] migrate actions from docker to podman
+[systemtest] iot test triggered by label
+[systemtest] dowsntream CI
+[systemtest] fix downstream OLM pipeline
+[systemtest] implement tests for monitoring
+[systemtest] send our results and artifacts to report portal
+[systemtest] test verifying links to upstream/dowsntream doc
+[IoT Design] Project Creation
+[systemtest] create install pipeline for ocp 4.x
+Create alerts for IoT
+Enable Pod Affinity/AntiAffinity in IoTConfig
+Allow configuring MQTT connection limits
+[systemtest] fix cli-rhea client duration mode and connector
+[IoT Design] Device Creation
+[IoT Design] Device Landing Page
+[#3864] : Add additional router mesh checks
+Clients needs to be able to scale the subscription consumer pods
+Links page goes blank if connection goes away
+Ordering a column on the links page (Links/Clients) doesn't work
+[#3873] : Require TLSv1.2+ for external endpoints
+Console issues
+"Console does not show clients attached to topic/queue in brokered address space, it shows only connection"
+As a Customer I would like to see messaging routes/ingresses when I open address space in console
+[#3879] : Add support for specifying maxConsumers for subscription types
+As a Customer I would like to manage users for address space
+Validation on address space creation is missing
+"If user tries to create address space with forbidden character (+,-,...) in name than console doesn’t complete request and with no error just stay on last form with finish button"
+Current page number allows user to change it but if user clicks to up arrow nothing changes.
+Download of address space certificate doesn’t work
+Service catalog application contains dashboard link (which was link to addressspace console) and it still contains console proxy route. So please change it to new console link
+Edit doesn’t work either for addresses (change plan from small anycast to large anycast or etc..)
+Filtering -> regular expressions don’t work.
+address creation form allows to create addresses with name like '.fasdfffasd'
+"Addressspace edit does not work, I'm not able to switch plan and auth service"
+"username in top menu is filled with name ""unknown"""
+Creating of service catalog enmasse application failed in OCP4
+[systemtest] Write test plan for performance tests
+[systemtest] write console test for generated yamls
+confirm button in delete addresses does not close wizard
+Router failing liveness check following upgrade from AMQ Online 1.2 to 1.3 (RHMI)
+API server can be unreachable if network policies are enabled on OpenShift
+create address / address space workflow lets the user continue even though the address or resource name is illegal
+Consolelink CR is not deleted when enmasse-infra is uninstalled
+Option to purge a queue in the brokered addressspace not showing in kebab
+Message out metric always shows 0 on the connection list/detail page for the brokered address space
+many sending links on same session collapsed to one (brokered address space)
+Addresses list rows resize incorrectly in small window
+Selection of address type error
+[#3927] : Replacing address space after upgrade can lead to loss of address space
+[systemtest] write console tests for attached links (clients)
+[systemtests] write automated test which check olm CSV links
+[OLM] links in CSV point to wrong pages (1.3.4)
+[service catalog] user does not see his addressspace created by service catalog
+the server responded with a status of 504 (Gateway Time-out) during console oauth authentication
+"spurious ""creationTimestamp: null"" included as part of the address space command preview"
+address menuing inconsistent between address list  row kebab and address detail kebab
+Add creation timestamp to the address list page
+[#3976] : consoleserver should be quiesced when there are no users logged on
+[systemtests] automated tests for OLM upgrade
+Link/Clients filtering by container id does not work
+"[systemtest] create test for blank page (address, address space)"
+[systemtest] create test for link blank page
+[systemtest] create test for container id filtering
+I'm not able to delete addressspace filter by type
+[#3990] : Support new bundle format for metadata image
+Broken links in 7.5 version of the published documentation
+Document procedure to enable debug logging for broker
+Typeahead filter - gives misleading information
+Delete delete space dialogue doesn't pop down
+[systemtest] create test for error dialog window
+Improve exception logging in address space controller
+Docs: Fix broken workaround link in RNs
+Auth session expiration not handled gracefully
+console address list status message presented as very long single line
+Console gives no access to Global DLQ depth.
+Console gives no access to the connection principal
+Refresh console documentation
+AMQ Online Metrics - Traffic
+AMQ Online Metrics - Latency
+AMQ Online Metrics - Saturation
+AMQ Online Metrics - Errors
+[systemtests] test for Number of addresses and connection supported
+[systemtests]test for fixed set of addresses but increasing messaging load.
+[systemtests] test for Failure recovery with large numbers of addresses
+[systemtests] test for Messaging performance
+[#4049] : Agent http request promise may remaining indefinitely unresolved state
+[#4044] : Agent AMQP connections use uni-directional heartbeating rather than bi-directional.
+console does not show custom address plan properly
+Pods stuck in configuring/crash state when addressspace is created and immediately removed
+Docs: how to change the auth service for an address space using the console
+[systemtests] test for Many links and connection performance
+Mismatch in contents of dropdown for plan in address and address space
+Create a JDBC based device registry
+"Create basic implementation using ""external"" mode"
+"Split off ""device connection"" service as seperate service"
+Split off management API service from protocol adapter service
+Address with invalid plan stops blocks creation of other Addresses
+[#4090] : Provide per-address space support credentials facilitating support access to the broker(s)
+[#3954] : Possible to define duplicate addresses (using router pattern matching syntax)
+Apply hawtio.localAddressProbing=false to downstream Brokers
+Bad example inventory in 1.3 docs
+Docs: add new console screenshots to console docs
+IoT exporting registry host error
+[#4111] : Docs: High-level concepts guide
+[#4109] : Console: Redesign for 1.0
+[#4107] : Architecture: Monitoring CRD
+[#4105] : Create MessagingInfra CRD and controller logic
+[#4106] : Architecture: Define authentication and authorization API for 1.0
+[#4108] : Architecture: IoT for shared infra in 1.0
+Wrong dropdown title for operator hub
+Unnecessary step in installing standard auth conf
+Wrong verification step for infra config
+Wrong verification step for address space plan
+Wrong verification step for address plan
+Unnecessary chapter
+Wrong arrangement in chapter 5
+Re-start Hono pods when certificates got updated
+[systemtest] modify ocp 4 install pipeline to install any version
+[systemtests] create pipeline for running scale tests
+[systemtest] job for AMQ online certification on ocp 4.2
+[systemtest] allow ocp4 pipeline to install RC version for LP testing
+[#4119] : api-server NPE logged when processing request for resource that does not exist.
+[#4131] : Agent watches may not reconnect in response to certain connection problems
+[console-ui - update PF version] DataToolbar getting broken after PF update
+[systemtest] create test deployment using tekton pipelines
+[#4049] : Agent http request promise may remaining indefinitely unresolved state [1.3.4]
+[#4131] : Agent watches may not reconnect in response to certain connection problems [1.3.4]
+[systemtest] load scale variable from env or json
+[systemtest] ability to configure scale tests variables
+[systemtest] create unit tests for systemtests
+[#4292] Getting error when passing forbidden characters to filter
+Address with invalid plan stops blocks creation of other Addresses [1.3.x]
+[systemtest] simplify and merge enmasse downstream pipelines
+[systemtest] scale pipeline for downstream builds
+Docs: fix wording in subscription address type description
+Docs: fix broken link in Planning docs
+Docs: update download zip attribute for 1.4
+[systemtest] request report portal instance
+Console pod stuck CrashLoopBackOff following OCP restart
+Add systemtest unit tests to github actions PR build
+Create beaker tast for Kubernetes deployment
+"Create beaker tast for OC deployment (CRC, cluster up)"
+As a Tenant Admin I would like to see view/edit the expose parameters of an address space in console
+"As a Tenant Admin I want to Create, modify or view address space endpoint information via the console"
+As a Developer I want to View the endpoint information via the console to enable the correct configuration of clients
+[#4182] : Support consumer delivery timeout for brokers
+Docs: fix broken IoT docs link in 1.4 RNs
+Docs: 1.4 RNs add period and forward slash characters
+[master] standard auth service not loaded in OLM default namespace
+[#4300] [service-catalog] dashboard redirect to wrong page of console and user cant see his addressspaces
+test
+Write blogpost about onboarding to Report Portal
+[systemtest] add ability to pass jsonConfig for scale tests via pipeline param
+"[systemtest] new tests, fixes and suite improvements"
+[systemtest] soak suite iot tests
+[systemtest] detect external clients subscribers are subscribed
+[systemtest] create metadata for new tests in 1.3.4 release
+[systemtest] improve web page wait for items
+FirefoxGlobalConsoleTest#testCreateDeleteAddressSpace - UI didn't create address space
+postgress db/infinispan endpoint not reachable
+AMQP Framing error between router/broker during test run
+[#4184] : Sometimes controller crashes when reconciling authentication service
+"Purge address request ""Error processing request: undefined"""
+[systemtest] add link to report portal to jenkins job description
+[#4232] : Allow configuring standard authentication service in HA mode
+[#4241] : Race in upgrade for OLM
+[#4156] : Unable to include enmasse as a dependency in another Golang project
+Console-IoT-UI - Add dropdown in Toolbar
+Console- IoT-UI - Create wizard component to support create project  feature
+Console-IoT-UI-  Create a table to display a list of projects
+Console-IoT-UI- Integrate pagination for project list table
+Console-IoT-UI - Create project header visual component
+Console-IoT-UI - Create cards to display count of projects
+Console-IoT-UI- Add navigation to view project details and devices
+Console-IoT-UI - Create Filter component for project list
+Console-IoT-UI - Create a reusable visual component for input box with copy option
+"Console-IoT-UI - Create charts to display event rate, telemetry rate and command rate for projects"
+Console-IoT-UI - Create a visual card component for device registration management
+Console-IoT-UI - Translate form data to JSON format and vice versa for Device Registration Management
+Console-IoT-UI - Translate form data to JSON format and vice versa for Access Credentials
+Console-IoT-UI-Create Project Detail Header
+Custom authservice fails to start
+Console-IoT-UI-Create General Info on project detail page
+Console-IoT-UI-Create Add Credentials Form for Add device page
+Console-IoT-UI-Add Download certificate for Project Detail Page
+Create PodDisruptionBudget for the Console
+[#4245] : improve standard-authservices liveness/readiness probes
+[#4246] : Ensure SaslAuthenticator completes its handler on all terminal paths.
+[#4242] : standard-authservice processes AMQP authentications single threadedly
+Docs: Add link to 1.4.1 fixed issues to 1.4 RNs
+[#4282] 'Cannot read property 'links' of undefined' reported in browser console log after address deletion
+[systemtest] remove old mqtt tests which are not supported
+[systemtests] OLM tests - Build custom operator registry in systemtests
+[systemtest] unify olm deployment in upstream and downstream
+"[##4279] Creating an address fails with message ""address space plan '' not found"""
+[#4280] Edit Address Space dialogue subtitle misleading
+[#4252] Allow configure idleTimeout of connectors
+Allow specifying replicas for standard and none authservice
+[systemtest] implement workaround for failing kube api requests
+[#4287] : Address links not displayed if address resource name suffix does not match address name
+Docs: As a Customer I would like to see messaging routes/ingresses when I open address space in console
+"[#4270] : In console, if there is only one option use it as default"
+[#4286] : Image pull policy not set for the agent container in standard address space
+"[systemtest] create pipelines for 1.5.0 release using ocp 4.4, 4.3 and 3.11"
+[#4299] : Bump vertx from 3.8.3 to 3.9.0
+Inconsistency in status object in mock server and real server
+Console UI - Include all type of status in the console
+[CI] switch iot jobs to use ocp4 cluster
+[systemtest] create ocp cluster operator
+[systemtest] framework tests for scale tests components
+Add support for expiry Queue configuration
+Docs: Provide per-address space support credentials facilitating support access to the broker(s)
+Document workaround for ENTMQBR-2313 (Fails to load journal after queue full)
+Update connector documentation
+[CI] implement retry for starting CRC cluster
+Docs: Disconnected installs (OLM)
+IoT POST-iot-device-registry failed 503
+PersistentMessagesTest.testBrokeredPersistentMessages fails to connect to brokered space
+Unable to drain kube node when only one broker is deployed there
+[CI] report portal report attachments with original timestamps
+FirefoxConsoleTest#testFilterAddressesByStatus races with the controller.
+[systemtest] write tests for testing enmasse stability during node restart
+[#4342] Agent failed to reconcile addresses
+UXD: As a Customer I would like to see messaging routes/ingresses when I open address space in console
+"Add functionality to the console to allow for System Admin tasks to be completed via the console (such as the creation and modification of plans, auth services and infrastructure definitions)"
+Console-server - Server doesn't handle the casing for filter string.
+[systemtest] create 1.4.1 polarion metadata
+Add link to 1.4.1 YAML bundle
+[systemtest] OLM upgrade tests - refactor to only do upgrade of latest -1 to latest
+"[#4358] Broker pod failed on ""no valid keystore"""
+[systemtest] create test annotations for default test env
+standard auth service javax.persistence.PersistenceException
+[systemtest] merge OpensslUtils and CerificationUtils
+[systemtest] build olm image on kubernetes cluster
+Broker and Agent images not updated by upgrade
+Implement max queue size
+Wrong namespace in IoT devices
+[CI] update pipelines to ocp 4.4
+[IoT Design] Device connection info
+[systemtest] apply file templates using fabric8
+[systemtest] make uninstall operators less verbose
+Docs: Release Notes - Add link to 1.5 bundle
+Docs: Release Notes - Update Release Notes for Release 1.5
+The title of console shows as 'React App' while loading
+Missing permissions in OLM manifests
+[#4423] : Ops procedures - document enable protocol trace for router/broker
+PurgeAddress does not work [current master]
+[IoT Design] External Project design
+Collect logs before starting teardown of resources
+Collect logs and states of all namespaces
+[#4465] : [Shared infra] Add support for 'brokered'/transactional capability
+[#4469] : [Shared infra] Add support for all address types
+"[#4463] : [Shared infra] Support specifying global broker settings: default address full policy, global max size, jvmArgs, storageClass"
+"[#4462] : [Shared infra] Support specifying global router settings: workerThreads, linkCapacity, idleTimeout, initialHandshakeTimeout"
+[#4458] : [Shared infra] Add liveness probes and readiness probes to shared infra
+[#4459] : [Shared infra] Add support for TLS endpoints for shared infra
+[#4475] : [Shared Infra] Add support for access control server and IdentityProvider
+[#4467] : [Shared infra] Deploy the AccessControlServer expose with service endpoint per MessagingEndpoint (two services required for MessagingEndpoints that do TLS/PLAIN)
+"[#4466] : [Shared infra] Add monitoring metrics and alerts on number of infras, routers/brokers down, not configured, utilization"
+[#4473] : [Shared Infra] Add support for MessagingPlan
+"[#4461] : [Shared infra] Support specifying podTemplate (affinity, tolerations, priority, memory request/limits, storage request/limits) for routers and brokers"
+[#4464] : [Shared infra] Support specifying minAvailable/maxUnavailable for routers and brokers (PodDisruptionBudgets)
+[#4497] : Allow configuring per-address slow consumer detection
+Docs: Configuring max queue size for standard and brokered address space.
+[CI] fix plugins.txt for enmase csb jenkins
+[CI] rewrite enmasse shared lib functions to class
+[CI] use new Enmasse class in shared lib in AMQ Online/Enmasse pipelines
+Performance test create/delete MessagingAddress causes kubeapi restart
+testSortConnectionsBySenders fails sporadically
+Automate Operator bundle image Rebuild and Release on change to ANY related image
+Add support for TLS and all endpoint types
+Scale test has failed to detect pre-installed enamsse-operator
+[#4502] : [GraphQL] expose read only messaging endpoints [address space facade]
+[#4503] : [GraphQL] extend createAddressSpace to allow endpoint configuration
+[CI] generate plots and store in jenkins for scale/perf tests
+Docs: Documentation should note the fact that endpoints aren't mutable
+[#4349] Console UI - Code refactoring  and creating reusable components.
+[#4512] : [Docs] correct loadbalance spec indentation
+Console shows unexpected error when I click on address with error message
+[CI] create disconnected ocp cluster for testing disconnected installation
+[CI] create automation for provisioning disconnected ocp cluster
+[systemtests] java external client null pointer exception
+[systemtest] fix flaky rhea WS test on AWS cluster
+testAddressLinks sporadic failure
+Docs: Add procedure for deploying the standard auth service for HA to downstream docs
+Docs: Add link to 1.4.2 fixed issues to 1.4 RNs
+reverseproxy.go:321: http: proxy error: context canceled during load of address space create dialogue
+[#4539] : [Docs] correct OpenShift refs in kube docs for console
+[#4349] Console-UI Create DropdownWithToggle generic component
+[#4349] Console-UI Create DropdownWithKebabToggle generic component
+[#4522] Update yarn dependencies
+[#4546] : Refactor GraphQL purgeAddress to permit multiple target addresses
+[#4549] : Implement GraphQL closeConnections
+Console-IoT-UI- Create MetadataListTable view component
+Console-IoT-UI-Create ViaGateways component for Device Info page
+Console-IoT-UI-Create Credentials view component for Device Info page
+Console-IoT-UI-View in Json Device Info page
+[#4349] Consol-UI refactor for Address Space
+[#4349] Console-UI-Code refactor for Address Space detail
+[#4552] : Integrate connection close into the console
+Add AMQP Protocol Adapter
+Build warnings from UI builds
+Test 1.4.2 images and provide Sign-off
+"CI reports ""green"" in case of internal failures"
+[systemtest] create test container for running enmasse suite in delorean
+[#4567] : Refactor GraphQL delete addressspace and address to take more than one target
+[#4568] : Create system test for connection close
+[Console UI] modify createAddressSpace flow to allow endpoint configuration and a way to include endpoints detail
+Console-IoT-UI - Create Filter component for device list
+Console-IoT-UI- Create visual component for metadata in Create Device
+Console-IoT-UI: Add auto populate feature for properties in metadata
+Console-IoT-UI- Add and remove siblings and children in device registration metadata
+Console-IoT-UI- Formulate json using device registration form
+Console-IoT-UI- Add validations on nested data structure
+Console-IoT-UI- Make the json form expandable and collapsible for device Registration.
+[#4572] : Upgrade Artemis to version 2.13.0
+[#4460] : [Shared infra] Use SASL EXTERNAL for router and broker management for shared infra
+[#4573] : Add readiness for broker in brokered and standard address space
+Allow to configure logging of IoT infrastructure
+[#4574] : Lower default globalMaxSize of broker to 1/4 of broker heap
+Extract the inter service PSK into a secret
+Refactor GraphQL query in client side for deleteAddressSpace and deleteAddress to send many target objects
+Console UI - Add filter for status in address-space list
+[#4582] FirefoxConsoleTest.testEmptyLinkPage fails sporadically.
+Upgrade Hono to version 1.3.0
+Docs: Document procedure for closing connections using AMQ Console
+Add upstream embedded Infinispan device connection service
+[#4590] : Extend addressspaceschema to enumerate endpoint types and certification providers
+Console-IoT-UI- Create Change Password dialog/modal component
+[systemtest] write new method for wait until deployments/statefulsets are ready
+[CI] Onboard on OCP LP testing pipeline
+[systemtest] create tests for monitoring alerts
+[systemtest] create monitoring tests for enmasse core components
+[systemtest] create monitoring tests for iot comonents
+[#4641] Test message websocket fails on OpenShift 4.4.3/4.4.5
+[CI] setup CPaaS tests for nightly base
+Console-IoT-UI - Create Empty State component for device list
+Console-IoT-UI - Create Alert component for Device List
+Console-IoT-UI - Create Toolbar for Device List
+Console-IoT-UI - Create Table component for Device LIst
+Console-IoT-UI - Create Bulk Select component
+Console-IoT-UI - Create Empty Result component for Device List
+Console-IoT-UI - Create Add Gateway step for Add Device Wizard
+[systemtest] Create tests for service selectors
+Console-IoT-UI- Create form for Device Information
+MQTT stopped working on brokered address space
+[#4785] Docs: Setting per-address max TTL
+Create console system tests for the endpoint features
+Console-IoT-UI - Create component for Project certificate
+Console-IoT-UI - Create Project certificate list visual components
+Docs: Add procedures for configuring IoT infrastructure logging to downstream docs
+[suite] add ability to override cluster type in systemtests
+Upgrade documentation should include a step to restart the operator
+[#4637] : End-to-end address monitoring for standard address space
+[#4631] : Allow configuring CPU limits for infra
+[systemtest] scale test improvements
+[systemtest] rename messagingPerformanceTest to scaleConnectionTest
+[systemtest] create messagingPerformanceTest
+[systemtest] investigate scale test client and add ability to parametrize send message deplay
+[systemtest] create linkScaleTest
+[systemtest] disable sharedinfra performance test
+Console-IoT-UI- Create Configuration Info Page
+Example iot-config-k8s is not allign with documentation
+Token auth is not working on kubernetes
+Upgrade Infinispan to 11.x
+Docs: Add link in 1.4 Release Notes
+[#4650] : standard-controller continued after death of the resource-checker.
+[#4651] : Separate metric reporting thread from reconcile thread
+Console-IoT-UI - Create toolbar for IoT Certificates
+Console-IoT-UI - Fix storybooks for AddressSpaceList and AddressSpaceHeader
+Console-IoT-UI - Modify IotDevice list tests for null checks
+Console-IoT-UI - Write unit tests for visual components of IoT certificates
+Enable websocket tests for OCP 4
+Integrate Project Detail Header with mock server
+Integrate Project General Info with mock server
+Console-IoT-UI - Integrate create project wizard with mock server
+Console-IoT-UI - Create visual components for Iot Project Detail Page
+Console-IoT-UI - Create visual component for Create a Device using JSON
+Console-IoT-UI - Create a visual component to view device detail information
+Console-IoT-UI Create generic Json Editor
+MonitorTest sporadic failure - query enmasse_addresses_not_ready_total unexpected value
+System test to include filter address-spaces by status field
+Console-IoT-UI- Create Device Detail Page and Integrate all UI components
+[#4656] : Defining a connector before its referenced secret exists results in NPE and permanently unready address space
+Unable to install monitoring on ocp4 if enmasse is installed via OLM
+[systemtest] load env from json config
+Console-IoT-UI- Create Credentials Filter Dropdown for ConfigurationInfo Page
+Add polarion requirements for 1.5.0
+Create polarion release for 1.5.0
+Create polarion metadata for new tests for 1.5.0
+"The IoT deployment must be adapted to make use of the new, shared infrastructure model"
+Rename IoTConfig to IoTInfrastructure
+Basic migration to shared infrastructure
+Use internal authentication/authorization mechanism for protocol adapters
+Drop external and provided downstream strategy
+Console-IoT-UI - Create Device List Page and integrate the visual components
+UI Test Fails and warnings
+Console-IoT-UI- Write graphql query for DeviceDetailPage and Integrate with UI
+"Console-IoT-UI- Create DeviceInfo container,  write query and integrate with mock server"
+"Console-IoT-UI- Create ConfigurationInfo  container,  write query and integrate with mock server"
+Fix downstream build for 1.5
+Wrong order of teardown in some IoT tests
+Docs: Add link to 1.4.3 fixed issues to 1.4 RNs
+Add circuit breakers for IoT services
+testCreateBindingCreateAddressSendReceive
+io.enmasse.systemtest.isolated.catalog.ServiceCatalogWebTest  address failed to become ready
+Upgrade to Eclipse Hono 1.2
+Docs: Add procedure for enabling tracing for IoT infrastructure to downstream docs
+Plan dropdown is empty during the creation of an Address
+Integration with Jaeger Tracing
+Docs: Add address canary metrics to downstream docs
+Console-Ui-iot Modify Dialog Prompt component to include icon color and label for confirm button
+Console-UI-IoT Integrate DataToolbar For Apply filter in Project List Page
+Console-UI-IoT Integrate Project List  component with mock server
+Enmasse CRDs are not removed (waiting for finalizers)
+[systemtest] write workaround for catching all beforeall install issue
+[#4705] :  Upgrade to 0.31.z with address space created by service broker in a non-existent namespace fails
+[#4704] : Console returns 500 internal error when configured with custom certificate
+CI comes up green on GitHub when called with a non-existing test
+Admin [agent] container writes error after patch addressspace to different auth service
+Console-IoT-UI- Create component for Error States  in DeviceInfo Page
+Work around @MethodSource JUnit issue
+Console-IoT-UI - add dialogs for device list page
+Integrate Device Registration Management on Project Detail Screen
+Console-UI-IoT Integrate endpoint configuration to create messaging project in iot-design
+Install ocp 3.11 with valid trusted cert
+Flaky test monitoring address
+[#4721] : Standard address space agent erroneously processes addresses of other addressspaces in the same namespace.
+[systemtest] add ability to check errors in pod logs during tests
+[#4724] : Broker logs contains [[AMQPSessionCallback] class java.lang.Boolean cannot be cast to class java.lang.String]
+[systemtest] deploy certs in iot tests counts with enmasse-infra namespace
+[systemtest] add ability to run tests against all kubernetes implementations
+Rewrite smoke tests to run messaging clients in kubernetes pods
+[#4730] : Enhance brokered address space's address controller (agent) to populate address plan status
+[#4612] : The agent is letting the router links create the new addresses on the broker
+Console-IoT-UI- Create ActionManager component for device detail page
+[#4735] : Add version and commit revision metadata to operator metadata
+Integrate Access Credentials with Project Details
+Upgrade to Hono 1.2.3
+Fail during test decrement infra on ocp4
+Console-IoT-UI- Add kebab dropdown options based on backend response in device detail  page
+Console-IoT-UI- Integrate mock-server queries in EditMetadataContainer for device detail page
+Console-IoT-UI- Integrate mock-server queries in EditGatewaysContainer device detail page
+Console-IoT-UI- Integrate mock-server queries  with EditDeviceInJsonContainer in device detail page
+Console-IoT-UI- Implement clone device functionality in device detail page
+Console-IoT-UI- Integrate change connection type (kebab dropdown option) functionality in device detail page
+Console-IoT-UI- Integrate mock-server queries with AddGatewaysContainer in device detail page
+Console UI- Validation on name in create address is not working
+Console-IoT-UI- Integrate mock-server queries with AddCredentialsContainer in device detail page
+Fix remaining IoT test failures
+Standard addrspace wildcard topic does not work
+Standard address space unable to receive messages from wildcard topic address
+[#4755] : Change alert severity levels
+[systemtest] fix flaxy service catalog brokered test
+Console-IoT-UI - adjust alert and empty state according to number of devices
+[CI] update pipelines to Amq Online 1.4.4
+[#4765] :  Addresses suck in configuring when creating large number of queues twice
+Console-IoT-UI - manual selection of DeviceList rows does not check the bulk select checkbox
+[#4773] : Error creating topic when address space contains connectors
+Docs: Add link to 1.4.4 fixed issues to 1.4 RNs
+System test to verify AMQ Online functional in addressFullPolicies other than FAIL
+Docs: Add note to downstream docs about choosing a namespace when deploying test certificates
+Console allow address with $ char
+Upgrade Patternfly
+Test new openshift OLM UI on ocp 4.5 with amq online 1.5.0
+[CI] allow to build custom manifest image from insecure registry
+[systemtest] upgrade to surefire plugin 3.0.0-M5 and remove workarounds
+Console-IoT-UI - Testing the patternfly upgrade
+Migrate tenant service to Quarkus
+Groom through Hono service options and add reasonable properties to IoTConfig
+Console-IoT-UI - plan dropdown not getting cleared while switching from subscription type in Create Address wizard
+Console-IoT-UI - Applying filters should redirect to first page
+Add metadata rules to device registration form
+Console-IoT-UI- Create use-patternfly module in console app and fixed issues
+Console-UI Filter on type and status is not working
+Docs: Add securityContext field to the brokered/standard infra config
+Console-IoT-UI- Fix upgrade patternfly 4 issues
+Console-IoT-UI- Fix alignment of Address Space table in Firefox browser
+"Console-IoT-UI - DeviceList.Unhide dropdown options under parameters criteria, second collumn"
+[#4815] : Support consumer priority for forwarders
+Docs: Add procedure to downstream docs for obtaining an authentication token
+Docs: Remove note regarding DLQs
+[systemtest] Modify system test for multiple addspace filters
+[CI] create job which repush images from proxy registry into private quay
+[CI] create job which build new templates with private quay images
+Console-IoT-UI - Fix failing test cases and resolve warnings after Patternfly upgrade
+[systemtests] enable ability to run tests in parallel in surefire
+[systemtest] modify resource manager to delete only test scoped resources in parallel run
+[CI] change structure of jobs for enmasse 1.0 upstream
+[#4839] : Agent leaks memory if qdrouter is restarted.
+Delete lib functions which we do not need for enmasse 1.0
+Delete tests for old enmase 0.x
+"[#4845] : [Console] [Usability] Greyed out ""customize endpoint"" text gives impression of unselectability"
+[#4846] : [Kubernetes] Console UI offers OpenShift Route as an endpoint customisation
+Hono - Add Management API operation to delete all devices matching a filter
+Create graphQL query to disable multiples iot projects
+[CI] adopt new one ocp deploy instead of osia
+[#4851] : [Shared infra] Console backend changes for 1.0
+Monitoring of broker does not work
+Check 1.5.0 stage documentation
+Update iot console GraphQL types to reflect shared-infra changes
+Add mock stats for IOT entities in mock server
+Add graphQL query to delete multiple iot projects
+Add graphQL querry to delete multiples iot devices
+Add UUID for credentials entries in mock servers
+Add status fields for Iot devices in mock server
+Add graphQL query to generate command to create iot project
+Boolean values in filters don't work for iot device + add examples in README
+Add user token in whoami console querry
+Mock server should return an array of addresses fro command
+[#4859] : Use OpenShift4 oauth-proxy when running on OpenShift4
+[#5246] Migrate away from the deprecated automatically injected service-ca.crt
+[#4860] : Standard controller does not log cause of startup failure
+Console-IoT-UI - Integrate pagination of device list and redesign the toolbar
+Console - IoT - UI - Integrate Create Project Flow with mock server's create query
+Console-IoT-UI-Edit in JSON under certificates not working
+Console - IoT - UI - Quick fixes on the Create Project Workflow
+Console-IoT-UI - Fix links and navigations in the Project Detail Info page
+[#4863] : [Shared Infra] [Identity] Basic Access Control Server
+Add cross console navigation for RHMI solution explorer
+Getting started guide for shared infra
+Overview guide for shared infra
+[#4873] : AddresSpaceController reconciling fails on encountering unexpected field(s) at the top level of the addressspace object
+[systemtests] fix node pot tests on AWS
+[systemtest] Remove doTest methods for client utilities
+Console-IoT-UI - Handle project status mutation in mock and implement bulk delete of devices
+Console-IoT Add enable/disable option for iot project in project list
+Rename IoTProject to IoTTenant
+[CI] Enable caching dependencies on actions
+[systemtests] Migrate all doTest methods (clients) to clientRunner
+[UXD] V2.0 UI Changes for Endpoint
+[systemtest] Improve code readability and modify framework part
+Console-IoT-UI- Create  serialize function  for credentials
+[systemtest] enable systemtests framework unit tests without kubernetes connection
+Console-IoT-UI - Upgrade device list filter and handle staus change of devices
+OLM operator fails to upgrade from 1.4.4 to 1.5.0 on OCP 4.4
+Drop protocol adapter sidecar
+Migrate command and control systemtests to new model
+"EnmasseOperatorManager ignores the ""skip cleanup"" flag"
+[CI] enable iot profile for nightly upstream testing
+Create the backend service for the iot console
+iot console metrics
+Annotation @Kubernetes in systemtests only works on minikube
+console backend : implement delete iot tenant
+console backend : implement create iot tenant
+console backend : implement toggle iot tenant state
+console backend : design iot tenant and messaging projects lists
+console backend : implement delete iot device
+console backend : implement create iot device
+console backend : implement toggle iot device state
+console backend : implement retrieve iot device list
+iot device registry : implement filters and GET method on /devices
+iot device registry : implement status field for iot devices
+console backend : implement set credentials for iot device
+console backend : implement get credentials for iot device
+Add iot tenant messaging credentials in graphQL
+Install 'time' command
+Test summary broken
+[#4950] : [Access Control] add SASL PLAIN support and initial identity provider support
+Console-IoT-UI- Integrate mock-server for credentials filter on ConfigurationInfo page
+[systemtest] delete old ST scripts and old automation
+Console-IoT-UI - Sorting IoT devices by status date is not working
+[CI] Parallelization of PR job
+Add validations on metadata values based on the Type
+"Formulate a JSON to include device info, metadata, credentials, gateway groups for Create Device "
+Enable addition of array type values in metadata form
+Enable deleting a parent along with all of its children in metadata form
+Integrate Create Device workflow with mock server
+Create Review screen for Create Device Wizard
+Console-IoT-UI- Integrate mock-server query with EditCredentialsContainer in device detail pege
+Console - IoT -UI - integrate Device status bulk update and CSS changes
+Console-UI-IoT Convert modal wizard to inPage wizard for create device flow
+Use non-nodeport approach for tests on OCP4
+[UXD] UI changes for IoT - AMQ Online V2.0
+Switch to Go 1.14
+[CI] Move github actions to go version 1.14
+Docs: Add link to 1.5.1 resolved issues to 1.5 RNs
+Docs: Release Notes - Add known issue OLM Subscription fails with OpenShift 4.4.11 and 4.5.1
+[CI] update pipelines to ocp 4.5 and 4.4
+[CI] add job for running nightly of release-0.33 branch from upstream
+Console-IoT-UI - Add meaningful ID to address module
+Console-IoT-UI- Add meaningful ID to address-detail module
+Console-IoT-UI - Add meaningful ID to connections module
+Console-IoT-UI - Add meaningful ID to Endpoint module
+Console-IoT-UI - Add meaningful ID to IoT Certificates module
+Console-IoT-UI - Add meaningful ID to IoT device detail module
+Console-IoT-UI - Add meaningful ID to IoT project detail module
+Console-IoT-UI - Add meaningful ID to connection details module
+Console-IoT-UI - Add meaningful ID to IoT device module
+Console-IoT-UI - Add meaningful ID to project module
+Console-IoT-UI - Add meaningful ID to address space module
+Console - IoT - UI -  Integrate add gateway for devices
+Incorporate unique id in metadata records to enable the management of metadata rows
+[Console-Iot] Create Device Using Json format
+[IoT Design] Edit a Device
+[CI] create job for runing tests on dis cluster in maas-jenkins
+Try to exclude OSGi dependencies from PostgreSQL JDBC driver
+Fix an issue with a dying thread pool on the fabric8 watcher
+[systemtests] tekton use lightweight images from google tekton project
+[#5001] : AMQ Online CSV sticks at Pending since OpenShift 4.4.11/4.5.1
+Console-IoT-UI-Fix alignment isuues in add a device modal dialog
+Console-IoT-UI - Add meaningful ID to components folder
+[UXD] V2.0 UI Changes for Messaging Project
+[systemtests] tekton allow to run iot tests and add examples
+[systemtest] rewrite resource manager to keep default resources if another test using it
+[#5012] : Yarn warnings since console-iot merge
+messaging-monitoring-app exclude connection/session establishment from latency time.
+Console-IoT-UI- deserialize function for credentials
+Docs: Add link to 1.5.2 resolved issues to 1.5 RNs
+Add IN filtering in console backend
+[#5047] : Adding InfraConfig/AddressSpace NetworkPolicy with pod selector fails on OpenShift 4.5
+[Console-Iot] Integrate Create Device using JSON component with mock server
+[Console-UI] Allow user to delete edit and download certs for messaging project
+Console-IoT-UI- Enable 'View Json format' view in add a device for IoT project
+[#5046] : Ability to exclude EnMasse IoT components from Ansible install
+Docs: Release Notes - Remove workaround for issue when installing AMQ Online from the OperatorHub on OpenShift 4.4.11 and 4.5.1
+Operator metadata for 1.5.2 contains wrong information
+Fix TLS tests
+Console-UI Label is Hardcoded in About Modal
+Console-IoT-UI- Implement change credentials status enabled/disabled functionality on device detail page
+Console-IoT-UI- Implement change password functionality for device detail page
+FirefoxConsoleTest.testOpenShiftWithCustomCert on OpenShift 4.5
+vertx based PostgreSQL (non-JDBC) storage backend
+Console-IoT Enable Pagination and Sorting in Project list
+[CI] create job which check stage images and templates
+[CI] create job which check released images and templates
+Wrong verification step for authentication service config
+[Console-IoT] Create Review component for device
+Console-IoT-UI-Remove 'Error Messages' column from list and display address and connection count
+Investigate tenant cleanup test failures
+Write documentation about AMQ Online QE processes and CI
+[#5076] : Stale record from cache can lead to incomplete address space deletion
+[CI] CVP add smoke iot tests into smoke iot part
+Add CoAP protocol adapter
+Switch to code generation for Java API classes
+Subscribe to Job change events and speed up checking of tenant-cleaner
+[Console-Iot] Integrate Review Device Component in Create Device using Json
+[Console-Iot] Integrate Review Device Component in Create Device using Form Input
+[Console-UI] Create Visual component for clone device
+[Console-IoT] Use manage column toolbar to update device list
+[#5000] : Minor documentation fixes
+Bring back tests for different device registry split models.
+Console-IoT-UI- Create visual component for add gateways group  (member of)
+Console-IoT-UI- Add meaningful ID to messaging project module
+Console-IoT-UI- Fix alignment issue for Project List toolbar
+Console-IoT-UI- Add connection gateways card in device info
+[Console-Iot] Integrate Clone Device with server
+[#5112] : Forwarder priority documentation
+Docs: Update procedures in downstream docs for installing using OLM
+Console-IoT-UI- Serialize function for device for edit device in json page
+[#5124] : [Documentation] Document changing broker logging level at runtime
+[#5116] : Add support for defining DLQ/expiry queue for an individual queue
+[#5119] : Support TLS X.509 client certificate authentication for messaging connections [standard address space only]
+[#5133] Docs for DLQ/expiry queues
+Console-IoT-UI- Delete gateway assignment functionality in device detail page
+Console-IoT-UI- Edit gateway group membership in device detail page
+Integrate DLQ/expiry queue in Console
+Console-IoT-UI- Integrate pre-confirm dialog for remove gateways and credentials in device detail page
+[#5130] : Addresses fail to become ready if globalMaxSize is omitted from the infraconfig
+[Console-Iot] Add option to enable or disable for multiple iot projects
+[Console-IoT] Update Device List filter as per new mockup
+[CI] restore old pipelines for amq online and merge into master
+Console-IoT-UI- Handle server-side success/failed toast message
+Docs: Release Notes - Update Release Notes for Release 1.6
+Docs: Update AMQ Online Product Version attributes
+[systemtest] Update metadata for priority forwards
+Docs: Remove IoT content from docs
+Docs: Update Supported features table
+Docs: Update OCP prerequisites for installing AMQ Online
+Docs: Modify Standard address space image to remove MQTT gateway and clients
+[systemtest] Create tests for DLQ via console
+Change parent images to use external registry registry.redhat.io/ubi7/ubi:latest
+[#5183] : Expiry-address and TTL do not work for durable subscriptions
+Docs: Update attribute for new AMQ quarterly splash page
+[#5195] : Purging an address with address different from name is broken
+Basic message test with openwire client is failing - can't connect to broker
+[#5271] Document behaviour of disposition undeliverable-here=true for users of the standard address space
+"Job (isolated tests, ocp 3.11) doesn't finish due to timeout - problems with router pod"
+MsgPatternsTest failing on rhea and proton clients
+PersistentMessageTest repeatedly failing - timeout/failed to create SSL connection
+Docs: Add link to 1.5.3 resolved issues to 1.5 RNs
+Prepare polarion test plan for 1.5.3
+Create test and polarion metadata for ENTMQMAAS-2542
+Create test and polarion metadata for ENTMQMAAS-2521
+Docs: Remove references to MQTT for standard address space
+Test olm upgrade for 1.5.3 on ocp 4.6 and  4.5
+[#5209] : Make broker behavior on rejected messages configurable
+Operator metadata references internal registry url for AMQ Online 1.5.3
+Operator metadata references internal registry url for AMQ Online 1.6.0
+Custom certificate provided in AMQ Online console is encoded twice
+"Create job which test operator from index image (CVP, CPAAS)"
+[CI] Migrate jobs to AWS and use brew registry
+IoT fails to install on OCP 4.6
+Docs: Make broker behavior on rejected messages configurable
+Docs: Add link to 1.5.4 resolved issues to 1.5 RNs
+Docs: Add link to 1.6.1 resolved issues to 1.6 RNs
+operator is generating multiple copies of console RS
+[#5209] : Make broker behavior on rejected messages configurable on 1.6
+Custom certificate provided in AMQ Online console is encoded twice in 1.6
+Identify flaky tests from latest 1.5 and 1.6 runs make list
+"Investigate random issue ""no route to host"""
+Build new version of systemtests-clients
+Investigate why upstream isolated job takes too much time and build failed
+Investigate and fix why dowsntream stage and production jobs do not run tests and replace images in templates
+Upgrade minikube version
+No -verbose:gc output from standard-controller etc.
+[#5232] Change images source from docker to quay
+[#5281] Agent utilises unexpectedly high CPU/memory when large numbers of connections/address defined.
+"Error: frame sequence error: delivery 702 not complete, got 0"
+Operator Hub usability improvements
+Operator Hub should provide a single operator
+Maintain supported configurations with OperatorHub automatic upgrades
+[#5221] Idle timeout of outbound broker connection may not trigger reconnection
+[#5223] Address/connection stats collections may erroneously run concurrently leading to excessive memory use/OOMs
+[#5226] Address/connection stats processing may block event loop for excessive periods of time
+CVP trigger job from iib message and run olm tests
+Implement or update olm upgrade tests in testsuite
+[#5228] Missing auto links following a 1.5.3 to 1.5.4 upgrade
+"[#5231] : Address space controller stops with an ""KubernetesClientException: too old resource version"""
+ca-secret name is limited to 60 characters
+Fix installation of local jenkins instance for testing
+Docs: Add known issue to 1.5 release notes
+Docs: Release Notes - Update Release Notes for Release 1.7
+enmasse-ci refactor common pipelines
+Sending a messaging to a topic ends with No route to the destination node [condition = qd:no-route-to-dest]
+"[#5233] ""No route to destination host"" reported when connecting client"
+[#5240] Park on LTS versions of broker (AMQ Broker 7.8)
+[#5240] Park on LTS versions of interconnect (Red Hat Interconnect 1.10.0)
+[#5285] Provide upgrade path for users of !!GLOBAL_DLQ fallback DLQ address
+Docs: Document a new field for !!GLOBAL_DLQ
+[#5253] Monitoring does not work on OpenShift >= 4.7
+[#5247] Support v1 of CRD API
+[#5236] [#5276] Bump Netty 4.1.48.Final to 4.1.60.Final
+[#5238] : Connections slow to appear or update in the Console.
+[#5265] Upgrade to fabric8 kubernetes-client 5.0.2.
+[#5249] Bump jackson-databind.version from 2.10.4 to 2.11.3
+[System tests] Monitoring regression on 3.11
+[#5263] : Sending links established by Artemis plugin (AMQP connector) are no longer registered as Artemis consumers (since Artemis upgrade)
+Add new field to support router configuration maxMessageSize
+[#5272] Support router configuration maxMessageSize
+Modify documentation - use migrated jenkins url
+Broker runs out of AIO IO contexts in the kernel at startup
+broker-support user unable to perform management functions since AMQ Broker 7.8.
+OCP 4.7 upgrade tests failing to install AMQ Online 1.6 (0/6 nodes are available: 3 Insufficient memory)
+Docs: Add note to install about CRD API v1 support
+Docs: Fix typo in code block
+AMQ Online loses service during OpenShift node upgrade
+[CI] investigate why upstream jobs stopped triggering every day
+Onboard AMQ online 1.7 to ocp4 LP testing
+[#5297] : endpointStatuses.cert field missing from addressspace CRD
+Document workaround for [#5297] : endpointStatuses.cert field missing from addressspace CRD
+Migrate from old cachet plugin to statuspage
+Cleanup aws and openstack dead clusters
+[Weekly] Check and eventually cleanup nightly ocp/aws clusters
+Please set journal-pool-files to a set file such as 10
+Migration of Jenkins CSB instances
+RHMI - AMQ Online 1.7 debugging
+Investigate issues in onboarding tests
+Upgrade from Vertx 3.9 (end of life release line).
+Broker will fail to return return management responses to standard-controller fail if broker is full leading to spurious address readiness warnings
+glib2 security update RHSA :76601 - Container images to be updated for AMQ Online
+Fix failing GH action in upstream repository
+Make broker journal-type configurable from infraconfig
+Jenkins openstack images do not contian oc client
+Fix installation of CRC on rhel8
+EOL AMQ Online: Deprecate Hello World from dev portal
+Document new infraconfig fields
+Placeholder for CVE-2020-25633 (RESTEasy)
+Jenkins CSB on OCP BareMetal - early adoption
+Migrate CSB Jenkins to version 2-289-2
+AMQ Online's broker-cli.jar erroneously contributes broker/netty impl to the broker's runtime classpath
+[CI] remove unused managed kafka perf jobs from enmasse-ci
+[CI] investigate why upstream ocp4 jobs fail
+[Test] investigate webconsole test failures in shared test profile
+[CI] investigate failure in isolated test profile in jenkins
+jenkins_home is almost full
+java-11-openjdk security update RHSA :78473 Important Due: 08/20/2021
+Enmasse Operator Validate addressSpace connectivity
+Switch auth-plugin and broker-plugin from JDK 11 to JDK 8.
+[Test] investigate upstream failing isolated tests
+[Test] investigate root cause of acceptance failed tests
+Fix problem with OLM-INDEX:LATEST on enmasse quay
+Code Scanning - Complete the PSCC form
+Investigate failing LPINTEROP test
+libX11 security update RHSA :80344 Important Due: 09/29/2021
+Help interop team with excluding test from LPT testrun
+[Test] Investigate LPT run test fails.
+Authentication service is not configured with realm
+Check index images
+Instruct LP team with further changes in testrun
+Address space controller unable to contact the API server after upgrade
+Verify CVE images
+AMQ Online 1.7.3 on OCP 4.8.x - oauth proxy error when accessing console
+Verify CVE images listed bellow
+[Test] Investigate OLP run test fails.
+[CI] Migrate Report portal and check for a new version 5.5
+Check and verify new and images from errata
+Check aws console and get rid of all instances
+Check non triggering CVP job
+7.9 openssl and expat CVE - AMQ Online base image update
+Check and verify new images from errata
+Investigate issue with auth-service pod not working
+[CI] Report portal reporting after CVE not working
+[CI] Solve Infinite loop in cvp pipeline
+[CI]Assist Interop team with 4.11 weekly-20220404-B0401
+[CI] Verify Interop testrun
+[CI] Endorse interop tests and contact Aditya about results
+service account authentication fails on OpenShift 4.9
+[CI] check weekly ocp
+[QE] Verify auth image
+[QE] Assist Interop team with weekly
+java-11-openjdk security update RHSA :93346 Important Due: 05/20/2022 - AMQ Online base image update
+java-1.8.0-openjdk security bug fix and enhancement update RHSA :93586 - AMQ Online image update
+[QE] CVE #95057
+[QE] CVE respin #95082
+[QE] Debug session with ccit / jenkins team.
+[QE] Help interop with tfa integrations - interop qna
+[QE] Investigate Interop fails with latest preview of ocp 4.11
+[QE] Create CMDB app - Manage CMDB Business Applications
+[QE] Create Corporate service account for certificate managment
+[QE] Investigate 504 status returned for interop tests.
+[QE] Onboarding of Bussines Resilence Management
+[QE] Verify UMB communication on CI
+[QE] Check on respin images
+AMQ Online 1.7: QDR unable to connect to Authorization Service
+Security Service  lost every users after a restart.
+[CI] Modify jobs to use openstack tenants and spaces to create ocp machine
+[CI] Jenkins update and modifications
+[QE] check errata 98898
+[QE] Verify metadata bundled
+[QE] Fix jenkins agent labeling wrong name
+[QE] Fix UMB sender and receiver on CI
+[CI] Jenkins template
+[CI] CVP fix automated instalation of clusters
+[CI] Local jenkins development modifications
+[CI] Openstack modify disconnected images
+[QE] Check CVP
+[CI] Fix jenkins agents terminating in loop
+[CI] Fix local development of jenkins after specific minor jenkins changes
+[CI] Fix ssh access to ocp4 config repository in jenkins
+Setup EOL plan of record - AMQ Online
+Remove artefacts from the downloads page
+Remove documentation from Customer facing portals
+Add a banner in the documentation - EOL
+Update the lifeCycle page - EOL in June
+Announcement page on the portal (similar to datavirt)
+Salesforce to be updated
+Take down references to AMQ Online in Cloud.redhat.com
+Rebuild the operator image to remove OCP 4.6 & 4.7
+[#590] : TopicTest with wildcards failed due to user doesn't have permission='CREATE_ADDRESS'
+[#604] : Address-controller: PUT method is not implemented
+Productize ER3 of RHOM
+Creating and deleting addresses
+Document Creating and deleting addresses
+[#746] : Add support for checking requests against limits and setting status on address
+[#747] : Add support for colocated topics
+[#749] : Use statefulsets for brokers
+[#744] : Implement Plan resource limits for address space
+[#748] : Persist decision about where queues/topics are placed
+[#750] : Handle scaledown of queues and topics at deploy time
+[#745] : Implement Plan resource requests for addresses
+[#752] : Need to be able to configure address-controller to use wildcard cert for route certs
+[#767] : Disable durable subs (configurable upstream?)
+[#761] : Console to support status for addresses
+"[#756] : Monitoring for operator(us): prometheus for alerting and metrics, log aggregation/search for logs"
+[#751] : Use valid wildcart cert
+[#764] : Some level of metrics on address controller / standard controller to show prometheus metrics
+"[#765] : Changes to service broker (service type is just address space, different plans are supported. See also point above about how to tie plans offered to plans specified) "
+[#759] : Delegate from keycloak to OpenShift Pro
+[#762] : How to match plans offered to plans specified (e.g. have console offer plans based on the presence of configmaps in its namespace or variations of that)
+"[#755] : Productize: router, queue-scheduler, standard-controller, alter keycloak to be init-container image"
+[#754] : Deploying keycloak in an HA configuration
+[#768] : Disable MQTT (configurable upstream?)
+[#753] : Tie user identity creating address spaces and addresses to billing (i.e. reliable record of addresses spaces used against some identity for the customer)
+[#757] : Oauth for console
+[#758] : Keycloak plugin OAUTH2 support
+[#763] : Set some conservative limits on broker resource limits so it doesn't crash
+[#760] : Fixed limit on backlog (and policy) for non-durable subscriptions
+[#766] : Experimenting/testing to determine the expected volumes or usage levels given plans will support in terms that make sense to a user
+Polarion reporting of enmasse test cases
+[#773] : Tests for authentication WebConsole
+[#774] : Tests for authorization in WebConsole
+[#770] : Define tests for limitation of address-spaces (by credits)
+[#772] : WebConsole Tests for addresses status
+[#776] : Recheck and enable system tests for standard address space
+[#775] : Tests for clients authorization
+"[#778] : Integrate PUMBA into our testing environment? (task already exists for that, from Ulf) "
+[#777] : Rewrite Jenkinsfile-long to declarative pipeline syntax
+[#771] : Modify test framework to use certs for clients authentication
+Setup Jenkins job with productized images
+Console: Create an Address wizard tooltip placement awkward
+[#843] : improve test framework regarding to definition of dynamically created plans
+[#844] : system-tests: create documentation in HACKING doc how to execute webconsole tests
+Add Documentation Conventions to Guide
+Investigate options for enforcing backlog limits on broker/router
+[#811] : Brokered: cannot create topic: user null does not have permissions to 'send'...
+[#877] : Make ansible deployment for install dependencies for running systemtests
+[#894] : Console does not sanitize address config names
+[#910] : address-controller can't replace addresses created via console
+[#918] : system-tests: new scale test: testScaleRouterAutomatically
+[#919] : system-tests: new scale test: testPodsLimitation
+[#920] : system-tests: new scale test: testCreditLimitation
+[#921] : system-tests: new Plan test: testPlansAvailableViaConsole
+[#936] : system-tests: create new test for thorough testing of REST API for address/address-space
+"[#991] : system-tests: new scale test: testCreditLimitation ({sharded,pooled}{queues,topics})"
+[#996] : system-tests: look at longtime running tests and fix them
+[#907] : system-tests: add parametr for disable 'tear down' methods in systemtests
+[#997] : system-tests: rewrite to junit5 2. step (reduce inheritance of TestBases)
+System-tests: periodical maintenance of systemtests and CI
+[#998] : system-tests: review list of February disabled tests
+[#795] : System-tests: Enable authentication in marathon tests
+[#693] : Status check for pooled queues is true even if address is not created
+Investigate what's needed for operations (logs/monitoring)
+[#949] : agent: Results count is not set correctly after refresh the page
+[#972] : Make global-max-size parameter configurable via template/plan
+[#973] : Configure per-address settings for each address created on broker
+[#974] : Configure broker connectionsAllowed based on memory size
+Docs: how to manage user permissions
+Docs: document the sign-up process for beta
+[#1001] : Automatically create authorization groups in keycloak
+[#1009] : Make resync interval in controllers configurable
+[#1011] : Separata status check from controller resync
+[#1014] : deprovisioning router resources doesn't work in standard-space
+"[#1020] : system-tests: test{Pod,Credit}Limitations with webconsole"
+[#1021] : system-tests: modify QueueTest#testScaledown
+[#1022] : System-tests: March list of disabled tests
+Remove 'docker' for the templates and images
+[#1024] : update resource-definition - add comments which fetures are enabled/disabled ...
+[#1027] : System-tests: create new test fo REST API - PUT | /v1/addresses/myspace/:name
+[#1026] : System-tests: create test for REST API - GET | /v1/addresses/myspace/:name
+[#1035] : system-tests: create set of tests for REST API - address resource optional params are missing
+[#1033] : System-tests: create test for REST API - GET /v1/schema
+[#1028] : System-tests: create test for REST API - DELETE | /v1/addresses/myspace
+[#1034] : system-tests: create test for REST API - address resource required params are missing
+[#1029] : system-tests: modify authentication tests to create multiple address-spaces in one request
+"[#1036] : system-tests: create new test for address-space endpoints ""host"""
+[#1032] : system-tests: create new test for replace single address-space
+"[#1038] : system-tests: create new test for address-space endpoints name and service (messaging, console, mqtt)"
+"[#1037] : system-tests: create new test for address-space endpoints ""cert"" "
+[#1031] : system-tests: create new test for replace address-space list
+[#1040] : system-tests: create new test that verify that returned restapi routes are reachable
+[#1017] : Events sent to address of type queue not delivered after a while
+"As a Tenant Admin, I need to purge any broker destination"
+Self-provision an address/destination
+Document how to delete a destination/address
+"As a Tenant Admin, I need to browse through any destination"
+"As a Tenant Admin, I need to enqueue messages in a destination."
+"As a Tenant Admin, I need to dequeue messages from a destination"
+"[#1074] : console: ""Results"" value is not updated after addresses are removed"
+[#1073] : system-tests: Create test for check if size of messages was exceeded
+[#1079] : standard-controller: is trying to connect to router which was already killed
+"[#1082] : address-controller: NPE when required parameters (address, plan or type) are not set"
+"[#1103] : mqtt (standard-space): interoperability - send amqp, receive mqtt doesn't work"
+[#1102] : mqtt (standard-space): Message with retained flag set to true are not received by subscribers
+[#1115] : New system-tests for websocket
+"[#1116] : system-tests: extend MQTT tests about testing ""will"" functionality"
+"[#1096] : agent: use ""direction"" attribute instead of ""dir"" for autoLinks"
+[#1117] : Response code/payload of AddressController REST API POST/DELETE operations
+[#1091] : Endpoints declaratively specified should be checked in status
+[#1084] : agent container: high load and memory issue with many addresses
+[#1087] : Upgrade to Artemis 2.5.0
+"[#1097] : When creating many addresses at the same time, a few have missing autolinks"
+Install EnMasse on Bosch OpenShift Dedicated cluster
+[#1123] :  system-tests: new test for auto scaleup after manual scaledown
+[#1124] : system-tests: review of list of disabled tests from March and create new one for April
+system-tests: unclosed archives exception in Jenkins when core-dump is stored
+[#1126] : system-tests: use multi-asserts instead of single asserts
+[#1128] : system-tests: Remove logs collecting for pods/statefull-sets
+[#1127] : system-tests: Use ENUM instead of string tags
+[#1125] : system-tests: Rewrite tests to use Dependency injection
+As a Tenant Admin I need to create addresses which can store a copy of all messages sent to a different address even when no consumer is connected
+Change header logo from EnMasse to AMQ Online for TP environment
+[#1134] : resource defragmentation for pooled addresses doesn't work
+[#1136] : Auto scale down doesn't work when plan of address is changed
+[#1145] : Standard: allow send/receive messages over WebSocket
+[#1159] : System-tests: Improve waiting for webItems
+As a System Admin I want to Install AMQ Online from templates
+"As a Tenant Admin I want to Create addresses which send messages to all receivers for that address, and will buffer messages which cannot be consumed immediately where the number of receivers may be in the (tens of) thousands"
+As a Tenant Admin I want to Create an address space with a plan that allocates dedicated resources to the address space whether they are used or not
+As a Tenant Admin I want to Bind an application to an address space using the Service Catalog (causing connection/credential information to be injected into the namespace of the application)
+As a System Admin I want to Define address space plans for address spaces which use a single broker
+As a System Admin I want to Define address space plans for address spaces which use a dedicated network of routers and brokers
+As a Tenant Admin I want to Provide information in the binding request which determines the permissions associated with the binding (e.g. which address can be sent to/received from)
+As a System Admin I want to Change plan for an existing address space
+As a Tenant Admin I want to Create a messaging instance which allows scaling to (tens of) thousands of connections / addresses and high throughput
+As a System Operator I want to Access the system logs for any component in any address space
+As a Tenant Admin I want to Create a messaging instance which provides full JMS semantics
+As a System Admin I want to Allow address spaces to be created/deleted using the service catalog on the same cluster
+As a System Admin I want to Allow address spaces to be created/deleted using the service catalog on multiple clusters
+As a Tenant Admin I want to Create/Manage an address space through a REST API
+As a System Admin I want to Allow address spaces to be created/deleted using a REST API
+As a System Admin I want to Allow address spaces to be created/deleted using custom resources
+"As a Tenant Admin I want to Create addresess which allow a sender to send a message to a single receiver which is receiving from that address, but will fail to accept the message if their is no receiver able to immediately receive it"
+As a System Admin I want to Configure the system to use a single source for authorisation configuration for all address spaces
+As a System Admin I want to Configure role-based access control to control who may create an address space (of a given type/plan) using the service catalog
+As a System Operator I want to Inspect the state of system component using their built-in monitoring tools (e.g. Broker console)
+As a System Admin I want to Configure the system such that all address spaces can receive messages from applications running outside the cluster
+As a Tenant Admin I want to Create an address space through the service catalog
+As a Tenant Admin I want to Provide a mechanism for a binding to occur between an application owned by a different user than that which created the service (Service Catalog)
+"As a Tenant Admin I want to Delete a binding from the service, removing any associated credentials"
+As a System Admin I want to Configure the system to restrict address spaces to use source for identity/authentication from a restricted list
+As a System Admin I want to Allow address spaces to be created/deleted using the service catalog on a different cluster
+As a System Admin I want to Install AMQ Online using Ansible playbooks
+As a System Admin I want to Configure the system to use allow address spaces to manage their own authorisation
+As a System Admin I want to Configure role-based access control to control who may create an address space of a given type/plen an address space using the REST API
+As a Tenant Admin I want to Create addresses which provide reliable store and forward messaging from a sender to a single receiver (amongst potentially many) listening on that address
+As a Tenant Admin I want to Create an address space using custom resources
+"As a System Operator I want to ""Restart"" an individual component or a single address space"
+"As a Tenant Admin I want to Create an address space with a plan that allocates resources as they are required, but each allocated resource is dedicated to that single address space"
+"As a Tenant Admin I want to Create an address space with a plan that allocates no specific resources to an address space, but instead uses shared infrastructure which is scaled dynamically based on aggregate demand"
+As a System Admin I want to Define address space plans for address spaces which share a single network of routers and brokers
+As a System Admin I want to Configure the system such that the tenant admin creating an address space can decide whether it can receive messages from applications running outside the cluster or not
+As a System Operator I want to Receive alerts if any address space is operating above user-defined thresholds of any resource type
+As a System Admin I want to Add an address plan to an active system
+As a System Operator I want to Extract the configuration of one or more address spaces (excluding stored data) and allow for that configuration to be uploaded in a different system
+As a System Admin I want to Configure the system such that all address spaces can only receive messages from applications running within the cluster
+As a System Operator I want to Backup and address space and be able to restore an address space from a backup
+As a System Admin I want to Configure role-based access control to control who may create an address space (of a given type/plan) when using custom resources
+As a System Operator I want to Inform all Tenant Admins of scheduled upcoming downtime or other service disruptions
+"As a System Operator I want to View ""audit logs"" providing information as to failed and successful attempts to create / delete / modify address space definitions"
+As a System Admin I want to Modify an address space plan in an active system
+As a System Operator I want to Receive alerts if the system in aggregate is operating above user-defined thresholds of any resource type
+As a System Operator I want to View the historic usage of resources for each address space
+As a System Admin I want to Configure the system to allow each address space to define its own user identities
+As a System Admin I want to Configure the system to enforce all address spaces to use a shared single source for identity/authentication
+As a System Admin I want to Define address space plans which allow for disaster recovery to a secondary cluster (in a different data center)
+As a System Admin I want to Upgrade the version of the underlying AMQ Online version without downtime
+As a System Admin I want to Delete an address plan from an active system
+As a System Operator I want to Have the ability to temporarily modify the logging level of individual component of individual address spaces (ideally for specific connections or addresses)
+As a System Admin I want to Upgrade the version of the underlying AMQ Online version for a subset of address spaces without downtime
+As a System Admin I want to Define address plans which enforce quotas
+As a System Admin I want to Define address space plans for address spaces which use a cluster of brokers
+As a System Admin I want to Add an address space plan to an active system
+"As a System Admin I want to Ensure an individual address space does not affect the system as a whole, by applying quotas to an address space (CPU / Memory / Network / Storage)"
+As a System Admin I want to Delete an address space plan from an active system
+As a System Operator I want to Receive alerts based on the appearance in the logs of any component of user defined key phrases
+As a System Operator I want to View the current usage of resources for each address space
+As a System Admin I want to Modify an address plan in an active system
+As a Tenant Admin I want to View on a single screen all the address spaces which I can administer
+As a Developer I want to Send and receive messages within a (local) transaction (AMQP only)
+As a Developer I want to Connect to a messaging space from outside the cluster using the AMQP protocol using TLS over WebSockets
+As a Developer I want to Receive messages using wildcard subscriptions against a topic tree to receive a subset of all messages
+As a Tenant Admin I want to Change the plan associated with an address to reflect changing resource requirements
+As a Tenant Admin I want to Asign permissions to address space users to allow them to send/receive/create/delete/manage addresses of a given name/pattern
+"As a Tenant Admin I want to Create an address which, when received from, fetches messages from an address in a different address space potentially in a different system/cluster"
+As a Developer I want to Connect to a messaging space from inside the cluster using the AMQP protocol (optionally using TLS) over WebSockets
+As a Monitor I want to Force a messaging connection to close
+"As a Tenant Admin I want to Create addresses which send messages to all receivers for that address, but which provide no buffering/storage (where the number of receivers may be in the (tens of) thousands)"
+As a Developer I want to Send a message to a destination using at-least-once semantics
+As a Developer I want to Connect to a messaging space from outside the cluster using the MQTT protocol using TLS over TCP
+As a Developer I want to Receive messages from an address using a filter (selector) to exclude unwanted messages from consumption
+"As a Monitor I want to For a single address space view all connections along with their authenticated identity, age, last activity time, ingress/egress rates, protocol"
+As a Developer I want to Send a message to a destination using at-most-once semantics
+As a Developer I want to Connect to a messaging space from inside the cluster using the MQTT protocol (optionally using TLS) over TCP
+As a Monitor I want to View for all address spaces the user can monitor on a single screen
+As a Tenant Admin I want to On creating an address select a plan from a fixed list which defines the expected resource requirements for that list
+As a Developer I want to receive from an address using at-most-once semantics
+As a Monitor I want to For a single address delete all stored messages
+As a Developer I want to Connect to a messaging space from inside the cluster using the AMQP protocol (optionally using TLS) over TCP
+As a Developer I want to receive from an address using at-least-once semantics
+As a Developer I want to Use credential and connection information provided in a secret with a standard name and format created by binding an application to a service using the service catalog
+As a Tenant Admin I want to Create/delete users specific to the address space
+As a Developer I want to Browse messages on a queue (i.e. iterate over stored messages without consuming them)
+As a Developer I want to Connect to a messaging space from outside the cluster using the AMQP protocol using TLS over TCP
+"As a Tenant Admin I want to Create an address which, when sent to, forwards the message to an address in a different address space potentially in a different system/cluster"
+"As a Monitor I want to For a single address space view all addresses and their types, along with current size/depth an ingress/egress rates, last inbound arrival time, last outbound message time, etc."
+As a Monitor I want to Use the console to send a test message to an address
+As a Monitor I want to For a single address move all messages to a different address
+As a Monitor I want to For a single address delete an individual message that is stored
+"As a Tenant Admin I want to Create an address which, when received from, fetches messages from an address in a different address space within the same system"
+"As a Tenant Admin I want to Create an address which, when sent to, forwards the message to an address in a different address space within the same system"
+As a Developer I want to Connect to a messaging space from outside the cluster using the MQTT protocol using TLS over WebSockets
+As a Developer I want to Create an application which integrates messaging with serverless functions (OpenWhisk)
+As a Tenant Admin I want to Create an address with Last Value Queue semantics
+As a Monitor I want to For a single address copy all messages to a different address
+As a Tenant Admin I want to Transfer the Tenant Admin role for an address space to a different user
+As a Tenant Admin I want to Asign/Remove the Tenant Admin role to multiple alternate users
+"As a Tenant Admin I want to For a queue or subscription with a maximum number of (active) consumers define whether further consumers should be rejected, or ""waitlisted"""
+As a Tenant Admin I want to Create all users/permissions for an address space by passing a single configuration file to an API
+As a Monitor I want to For a single address space view historic/trend information for queue size/depth; ingress/egress rates; number of connections etc
+As a Tenant Admin I want to Asign/Remove limited Tenant Admin rights to other users
+"As a Monitor I want to Allow for alerts to be configured on a per address and per address space basis on various resource metrics (queue size, message age, number of queues, number of connections, etc)"
+As a Developer I want to Send a message to a destination using exactly-once semantics
+As a Monitor I want to View all alerts across all address spaces the user can monitor on a single screen
+"As a Monitor I want to View ""audit logs"" showing all successful/failed attempts to connect / create/delete/modify addresses / quota enforcement actions"
+As a Monitor I want to For a single address view an individual message that is stored
+As a Monitor I want to Integrate the address space with industry leading APM tooling to aid application monitoring
+As a Tenant Admin I want to Extract all user/permission configuration for an address space into a configuration file using an API
+As a Developer I want to Utilise a mechanism by which their application can be deployed with declarative configuration such that application deployment causes the instantiation of the necessary messaging infrastructure
+As a Tenant Admin I want to Configure the address space to allow authentication using OAUTH2 access tokens linked to given OAUTH2 provider for console access
+As a Developer I want to Create an application which uses end-to-end encryption to ensure that operators of the messaging system cannot read sensitive business data
+As a Tenant Admin I want to Configure the address space to allow authentication using OAUTH2 access tokens linked to given OAUTH2 provider for messaging
+As a Tenant Admin I want to Configure the address space to allow authentication using username/password in such a manner that the plaintext password is never sent over the network
+As a Tenant Admin I want to Configure the address space to allow incoming messaging connections from outside the cluster
+As a Tenant Admin I want to Create an address which guarantees strict FIFO ordering for messages sent from one sender to a given receiver
+As a Developer I want to Create an application which takes messages from within AMQ Online and forwards them into a Kafka cluster
+As a Tenant Admin I want to Configure the address space to allow messaging connections only from within the cluster
+As a Tenant Admin I want to Create a queue or subscription with a maximum number of (active) consumers
+As a Developer I want to Create an application which integrates with AMQ Online using RHOAR
+As a Tenant Admin I want to Asign a quota to a messaging user created in the address space to limit the number/rate of messages they can send receive
+As a Tenant Admin I want to Create an address which allows for message grouping (i.e. that all messages in the same group are sent to the same consumer)
+As a Tenant Admin I want to Asign/Remove Monitor rights to other users
+As a Tenant Admin I want to Create an address which does not guarantee strict FIFO ordering for messages sent from one sender to a given receiver
+As a Developer I want to receive from an address using exactly-once semantics
+As a Tenant Admin I want to Configure the address space to enable/disable connections using the AMQP protocol
+"As a Monitor I want to ""Quiesce"" the address space to prevent any new messaging connections, and to gracefully disconnect existing connections, and from the quiesced state be able to restart"
+As a Developer I want to Create an application which ingests messages from a Kafka cluster into AMQ Online
+"As a Developer I want to Use the ""will"" functionality to cause messages to be sent on client disconnection (MQTT)"
+As a Tenant Admin I want to Configure the address space to allow authentication using X509 certificates over TLS for messaging
+As a Tenant Admin I want to Configure the address space to allow incoming messaging connections from outside the cluster but only from specific IP addresses
+As a Developer I want to Connect to a messaging space from inside the cluster using the MQTT protocol (optionally using TLS) over WebSockets
+As a Tenant Admin I want to Associate an address with a Dead Letter Queue where expired or undeliverable messages can be routed
+As a Developer I want to Send and receive messages within a distributed transaction (requires AMQP extension)
+As a Tenant Admin I want to Configure the address space to enable/disable connections using the MQTT protocol
+"As a Tenant Admin I want to For an address space which takes all its configuration from another, provide a graceful shutdown mechanism which will cause all messages stored in the address space to be migrated elsewhere in the network"
+As a Tenant Admin I want to Configure the address space to allow authentication using X509 certificates over TLS for console access
+[#1168] : System-tests: May list of disabled tests
+"Review MQTT implementation in standard space with respect performance, scalability and managability"
+Review MQTT implementation in brokered space with respect to managability
+"Review Durable Subscription proposal for standard Space, and decompose into tasks"
+[#1196] : System-tests: review marathon test failures
+[#1193] : System-tests: test for high load of addresses
+[#1195] : System-tests: define testing of upgrades
+[#1194] : System-tests: new tests for service catalog (via Web)
+[#1192] : System-tests: new test for login via openshift user
+align amqonline and interconnect needs for router image
+remove per-address address-settings config
+[#1206] : 'Connections' tab in console doesn't show connections
+"Document ""Creating an address using the Console"""
+"As a System Admin I want to Trigger a process when a request to create a new address space is made, and allow that process to veto address space creationas well as performing busines specific functionality (e.g. setting up chargeback)"
+[#1230] : system-tests: implement checkReachablePage method for all WebPages
+"[#1233] : Service catalog doesn't work due to missing ""namespace"""
+[#1265] : Add support for mTLS configuration of aggregated api server
+durable subscriptions: agent
+durable subscriptions: standard-controller
+durable subscriptions: subserv
+durable subscriptions: system tests
+durable subscriptions: console
+[#1291] : Creating addressspaces through api server appears to require cluster-admin rights
+[#1280] : Add support for watching addressspaces and addresses to api server
+[#1281] : Add jvm optimizations to controller components to reduce footprint
+[#1169] : Brokered: java.lang.NullPointerException when artemis is under load of connections
+[#660] : Brokered: openwire client raises JMSSecurityException when try to send messages on topic
+"[#1285] : Unable to create queue of type ""sharded-queue"" using api server"
+[#1287] : Addresses created through the console cannot properly be used through the command line tools
+[#1283] : Errors when attempting to create two addressspaces with the same name in different namespaces
+add durable subscription address type to standard address-space
+durable subscriptions: templates and configuration
+[#1292] : System-tests: create new test for: Response code/payload of AddressController REST API POST/DELETE operations
+[#1305] : Add paging into console
+[#1306] : Creating 3300 pooled addresses cause creating 5 broker pods
+[#1315] : System-tests: Jun list of disabled tests
+[#1319] : sending requests with small batches of addresses cause restart of api-server
+"Document As a Tenant Admin I want to Create addresess which allow a sender to send a message to a single receiver which is receiving from that address, but will fail to accept the message if their is no receiver able to immediately receive it"
+"Document As a Tenant Admin I want to Create addresses which send messages to all receivers for that address, and will buffer messages which cannot be consumed immediately where the number of receivers may be in the (tens of) thousands"
+"Document As a Tenant Admin I want to Create addresses which send messages to all receivers for that address, but which provide no buffering/storage (where the number of receivers may be in the (tens of) thousands)"
+Document Viewing address space details
+Document How to choose the right address space plan
+Document Connecting to messaging spaces from outside the cluster using the AMQP protocol using TLS over TCP
+Document Connecting to messaging spaces from outside the cluster using the MQTT protocol using TLS over TCP
+Document Table that documents each feature and whether it works with a given address space type/address type
+"Document Address space limits (can only create n addresses, devs can’t send any more messages; potential troubleshooting task for Developers)"
+Document Create and delete users specific to the address space
+Document Assigning (and deleting?) permissions to address-space users
+[#1327] : Creation of sharded topics and queue fails to complete
+"[#1343] : System-tests: create new test for deploy address when ""name"" is not specified"
+[#1359] : Forwarder fails to settle message that have already carry the replicated annotation
+"[#1358] : Forwarder fails to connect to the Broker ""Could not find a suitable SASL mechanism"""
+[#1357] : Incorrect handling of InterruptedException
+[#1380] : Address created via 'oc' command can't be removed via api-server
+[#1385] : Upgrade to openshift 3.9 in systemtests
+[#1387] : Attempt on delete of not existing address should cause error
+"[#1396] : Attempt on create new Address with invalid value in ""name"" should cause correct error message"
+[#1341] : Record time spent for various parts of systemtests
+[#1411] : System-tests: Jul list of disabled tests
+[#1429] : System-tests: Create new test for 'delete all addresses/address spaces'
+[#158] : rebase to latest router
+[#1423] : Subsequent SUBSCRIBE control packets ignored
+[#1444] : EnMasse console display unexpectedly high number of senders when number of dispatch routers scaled above 1
+[#1443] : Dispatch Router sporadically goes into a state where TLS connections to the auth service fail
+[#1442] : Pooled Queue reports negative message count after sustained load
+Modularization of upstream docs content: Managing address spaces and addresses section
+Modularization of upstream docs content: Connecting applications to EnMasse section
+Modularization of upstream docs content: Installation section
+Modularization of upstream docs content: Configuring address space and address plans section
+Modularization of upstream docs content: Monitoring section
+Remove stale route from service-broker
+"[#1474] : system-tests: create new webconsole test for address type ""subscription"""
+[#1515] : [deploying-single-address-space] link on documentation site not working
+Migrate jenkins jobs to openshift 3.10
+[#1520] : System-tests: Use User API when managing users and permissions in systemtests
+[#1521] : System-tests: create new API client for User API
+[#1497] : Test creating address spaces with a non-privileged user
+[#1522] : System-tests: create new test for custom resource definitions of Users
+[#1523] : System-tests: create new API test for Users API
+Fix collecting docker logs for prod build
+User REST API for standard authentication service
+[#1517] : Add support for user management using custom resources API
+[#1518] : Add support for user management to console
+Implement User API in api server
+Add documentation for using User API
+Create mechanism and tests for testing creation of addressspacess under non admin user
+[#1525] : System-tests: create machanism for testing creating addressspacess under non admin user
+[#1532] : System-tests: missing screenshots in marathon test-suite
+[#1547] : Topic with long name causes host server to be unresponsive
+Use downstream broker image
+[Productisation] io.fabric8:openshift-client:jar:3.1.8 depends on unproductised com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+[Productisation] [MQTT] Gatway/LWT modules have unproductised dependency - Spring Boot etc
+"[#1567] : Deleting topics that have subscribers attached leaves ""unlinked"" subscribers behind"
+"[#1568] : 'Asian' characters in console for {any,multi}cast address"
+[#1570] Change generated binding user/password to not need URL encoding for clients
+"[#1571] : Sending x messages in  to queue, show x messages out instantly in console"
+[#1574] : [console and router auth-plugin] Username is not showing for an authenticated connections
+[#1588] : [console] Address name is not created when starting or ending with .
+[#1591] : Filtering addresses with star symbol in console giving wrong results
+[Productisation] Productised netty-tcnative-boringssl-static required
+[Productisation] Productised jackson-module-jsonSchema required.
+[Productisation] Productised netty including native required.
+[#1605] : Sender and receiver links not identifiable to the end user
+[#1606] : Topic receiver count purpose unclear
+"[#1607] : The dashboard pie chart ""Messages"" does not account for messages sent to durable subscriptions."
+[#1550] : [Productisation] Agent should lock down Node dependencies
+[Productisation] Use redhat prefixed nodejs dependencies of Agent
+[#1601] :  [console][agent] create_address request failed: 422 Unprocessable Entity undefined
+[#1611] : System-tests: Sep list of disabled tests
+"[#1609] : [console] message out count, and stored count decrements incorrectly"
+[#1595] : Console does not behave reasonably if address space is deleted
+[#1570] : Change generated binding user/password to not need URL encoding for clients
+"[#1567] : Deleting topics that have durable subscribers attached leaves ""unlinked"" subscribers behind"
+[#1539] : Allow EnMasse to use the same Keycloak instance as the OpenShift cluster it's running in
+[#1534] : Remove the 'Authorize Access' screen from the login flow
+[#1533] : Automatically redirect to the 'openshift' identity provider login page instead of the intermediate keycloak page with an 'openshift' option
+[#1410] : Service catalog: binding is not correctly created
+[#839] : Standard: receiver receives messages in wrong order
+[#818] : Standard: user with view_{$address} cannot see connections under his credentials on $address
+[#819] : Standard: user with permission view_* does not see any address in console address view
+[#1587] : Deploying EnMasse to a single namespace
+[#1585] : Infrastructure management and upgrades
+"[#1580] : Make ""caCertSecretName"" optional in external authService config"
+Install operator/image/template
+[#649] : Web Console: connection item does not show count of senders correctly
+Setup Bosch LoadBalancer service with certs
+"[#659] : Brokered - Web-console: connection item does not fill columns Accepted,Rejected,Released..."
+"[#1625] : [console] No error message is show, when unable to connect to authentication service"
+Remove columns for delivery outcomes that can't yet be filled in brokered space
+[#1697] : Add tests covering authentication to the EnMasse console using a federated (openshift) id
+[#1698] : [Docs] Authentication and authorisation
+[#1691] : Connectivity to the peer container was lost reported when forming receiving link to durable sub
+[#1668] : Improve configuration flexibility for creating address space endpoints
+[#1616] : Update api group of address space and addresses
+[#1617] : Update API version to v1beta1
+[#1725] : Add error message for incorrect filters on connections tab too.
+"[#1634] : Keycloak SASL plugin offers no mechanisms and no explanation if domains do not have ""enmasse-realm"" set"
+[#1719] : Messages continue to flow even though (multi|any)cast address is deleted
+[#1718] : Allow AddressSpaceController deployment to provide a kc-idp-hint default
+Use Broker 7.2.1 broker image for downstream
+Console Docs: Note why connection item does not show count of senders correctly
+[#1737] : [console] deleted filtered addresses still displayed
+[#1736] : [console] Behaviour of address filter regex alert is not consistent
+[#1733] : [Console] About button doesn't work as I would expect
+[#1734] : [console] filter should have option to filter for multiple values
+[#1751] : Binding credentials can still be used after the secret is deleted
+[#619] : WebConsole: missing check box for select all addresses
+[#1753] : Unable to reach Connections tab after about 15 minutes of Console use
+[#1756] : Remove the ability to request console access on binding
+[#1757] : Existing connection filters not applied to new forming connections.
+[#1759] : Improve aesthetics of address tab
+[#1786] : [UX Improvement]Creating the links between Address and Connection
+[#1788] : [UX Improvement] Connection list improvement
+[#1789] : [UX Improvement] Dashboard Usability Improvement
+[#1787] : [UX Improvement] Address list usability improvement
+[#1790] : [UX Improvement] make the empty state page
+ServiceBroker refers to EnMasse rather than AMQ Online
+[#1813] : disconnecting receivers causes dashboard metrics to be invalid
+[#1810] : Ready addresses seen to flip back to isReady=false
+[#1781] : Agent unexpectedly deleting queues
+[#1812] : Incoming/Outgoing links tables not working as expected
+[#1826] : Allow user  to change the amount of time that the metrics shown for each address are aggregated for
+[#1827] : [console] Add option to filter by address state
+[#1831] : Document and provide prometheus and grafana installation bundles
+[#1832] : Add metrics for address space  status
+[#1835] : Improve documentation of address spaces
+[#1834] : Document the external authentication service
+[#1837] : Deploy CRD instances separately from infrastructure
+[systemtests] Use openshift cluster instead of okd for prod build
+[#1814] : Create systemtests for different cert providers
+Setup and run the Prod Gates and action any gaps
+Productise release for Beta.
+[#1833] : Improve the variation in the default set of address space and address plans
+[#1817] : Need to conditionalize managing users docs and add manage user authorization content
+Remove the dashboard
+[#1841] : Remove sending and receiving link tables (brokered address space)
+[#1842] : Remove Spring dependency from MQTT components
+[#1847] : [UX Improvement] gathering all the usability/ui issues in the Beta version
+[#1851] : [brokered console] messages in/out metrics are not working correctly
+[#1852] : [brokered console] Message in/out metrics are not working with re-created topic
+"[#1859] : Inconsistent terminology - ""Container"" vs. ""Container ID"" vs ""Id"""
+"[#1858] : Inconsistent naming ""senders"" vs ""incoming links"""
+[#1860] : Misleading receiver delivery count 0
+Improvements for beta
+Update all systemtest metadata ensuring polarion beta release requirements are covered
+[AMQP] released messages lose order
+Add step to creating users procedure
+Create sign-off document
+[#1941] : Add ability to select any pod by label component
+Review image meta
+Factor out product names from ServiceMapping
+QE feedback for downstream docs [technical]
+QE feedback for downstream docs [editorial]
+[#1963] : systemtests: Debug and fix marathon test suite for running reliability tests
+Docs: fix view broker log procedure
+Docs: conditionalize installation prereqs
+Docs: add known issue about message ordering on queues
+Docs: Fix API table issue
+[doc] create doc topic about persistant storage
+Docs: Remove yaml file links
+"Docs: Fix ""{ProcuctName}"""
+Update script that creates API references tables. Increasing cell width.
+Docs: change all xrefs to links
+Install AMQ Online with IoT using templates
+Create OpenShift template for IoT components
+Add an IoT tenant to the standard address space
+Create/delete devices for an IoT tenant
+Create IoT operator stub
+Implement IoT Operator for telemetry
+Create/delete business application credentials for an IoT tenant
+Send telemetry data from an MQTT device outside of the cluster and receive it in business application
+Docs: Split out content into three guides
+"Docs: add content about ""user roles"""
+[#2003] : Standardize on UTC date/time stamps in logs.
+[#1486] : Name AMQP containers
+[#1330] : Standard address space: broker failed on java.lang.OutOfMemoryError
+"[#330] : Purge, move and copy features in the console"
+[#2002] : Intermittent standard controller status check showing in connections tab
+[#1808] : Add more information to cli output
+[#2004] : *DRAFT* Changing address (space) plans
+"Separate out the broker plugin from the broker image upstream, to match the productized images"
+[#2008] : Add address health and metrics
+[#2000] : Network policies for address spaces
+Performance testing
+[#2009] : Provide command line utility to manage enmasse
+Docs: add uninstall procedure to downstream master.adoc
+"As a System Admin I want to Ensure enmasse infrastructure is deployed to a dedicated pool of openshift nodes, and prevent an overutilised cluster from evicting messaging infrastructure"
+Implement the Hono Tenant API backed by CRDs
+Implement scalable device registry
+Test and harden default registry HTTP APIs
+Do a review of the QDR sidecard configuration
+Document managing device registry
+Authenticate Device Registry operations against k8s user
+Make an example of how to create a business user
+Document creating business user
+Document installing IoT components
+Create an example of how to send receive telemetry data
+Document setting up a new IoT project
+Document an example of how to send and receive telemetry data
+Enable operator to create EnMasse AddressSpace
+Productize both Hono and custom EnMasse IoT components
+Productize upstream Hono components
+Productize EnMasse IoT specific components
+The IoT projects should be able to use (and be charged) resources specified by the appropriate plan
+Allow the use of X509 for device authentication
+[#2100] : Pooled addresses are removed in scale down process
+Docs: Change ref-retrieving-address-space-information.adoc from bulleted list to a table
+Docs: improve Console docs
+Docs: Change example and Add note to 2.1.5. Creating users using the command line procedure
+[#2126] : Support changing of queue address plans
+[#2128] : Create tests/pipeline for testing network policies
+[#2054] : Allow MessagingUsers to be created from service accounts
+[#2137] : Federated user has permissions to send/receive messages
+[#2155] : standardinfraconfig addressFullPolicy not respected
+Docs: Include AMQ Online address space diagrams
+[1.0 GA] check prod documentation
+[#2172] : Not possible to create any other address after creating Large Queue in standard-small addr space
+Docs: fix Managing address spaces and managing addresses assemblies
+Docs: change product version number
+Docs: fix subject/verb disagreement
+Docs: remove `none` auth service from downstream docs
+Docs: add instructions about how to download the OpenShift client tools
+Docs: QE review fixes
+Docs: Fix missing endif in procedure file
+Missing example on how to handle certs for AMQ Online
+Docs: add a reference table for Infra Configs
+Docs: Fix refs to alpha in two yaml files
+Docs: improve wording for queue concept file
+Collection of Dispatch Router state fails silently during downstream system test runs.
+[#2265] : [Console] Purge and Suspend buttons not working
+[#2268] : [console] show which topic a subscription is for
+[#2270] : [Standard] Large Subscription to extra Large topic gets stuck in pending
+[#2273] : [console] Message in/out metrics are not working with re-created subscription
+Docs: Change download file name
+"[#2283] : [console] when idle for x hours, the address metrics (messages in/out) don't work properly"
+[#2275] : [console] possible to create subscription without topic in console
+Docs: Remove UUID from template examples
+[Productisation] Remove the need for additional downstream transitive dependencyManagement
+Incorrect kube-metrics registry image
+As a Tenant Admin I want to Watch Openshift Resources using the Kubernetes API
+As a System Admin I want to Install AMQ Online using OLM
+As a Tenant Admin I want to Update resources using the Patch operation in the Kubernetes API
+Update dependencies to pick newer versions of keycloak / RH-SSO
+[#2304] : Queue behavior when subscribing to exact same sub-topic
+[#2288] : Suppport deployment via operator lifecycle manager
+[#2289] : Design - Simplify installing and referencing authentication services
+[#2300] : Global console
+Set correct version of infra configs
+Allow messaginguser API to work with standard authservice disabled
+[#2272] : Address isReady=true when in phase Pending
+Fix listing all addresses cluster wide
+[#2303] : Fix #2157: Reduce logging verbosity from the broker
+[doc] examples from doc does not work when I copy them to terminal
+[test] test for ENTMQMAAS-963
+[test] test for ENTMQMAAS-966
+[test] test for ENTMQMAAS-962
+[test] test for ENTMQMAAS-950
+"Docs: Add step about changing to the infra namespace to prometheus, kube-state-metrics, grafana, alerts procedure"
+Docs: Add external authentication example (LDAP)
+Design consolidated console architecture
+Design for Address space bridging
+[#2305] : Upgrade keycloak to 4.8.3
+Design for resource watching
+Docs: Issue with address auto-create in broker; document workaround and examples
+Add health checks to Go processes
+Add application metrics to Go processes
+Docs: issue 2310 upstream
+Docs: how to restrict address spaces to use source for identity/authentication from a restricted list
+Docs: For a single address delete all stored messages
+Docs: For a single address move all messages to a different address
+Docs: Use the console to send a test message to an address
+Docs: How to use a single source for authorization configuration for all address spaces
+Docs: How to allow address spaces to manage their own authorization
+Console Docs: View for all address spaces so user can monitor on a single screen
+"Docs: How to create an address which, when sent forwards the message to an address in a different address space within the same system"
+"Docs: How to create an address that, when received from, fetches messages from an address in a different address space within the same system"
+Docs:  For a single address delete an individual message that is stored
+Console help page has broken links
+"[#2334] : [console] possible to create subscription without topic in console, #2"
+Set up sidecard QDR's ACL to prevent remote side attach
+Create Kubernetes compatible deployment
+[#2366] : Responses to Agent's management requests fail if Broker has exceeded configured global-max-size
+[console] Create integrated console header
+[console] Authenticate against openshift
+[console] Create an amq online address space
+[console] List all created Instances
+Write initial set of system tests for IoT components
+PoC based on Infinispan
+Write install operator for IoT components
+Re-enable netty-tcnative support
+Define user stories for IoT system tests
+Fix health check issue of tenant service
+[#2387] : Allow configuring images in infra config
+[#2388] : Allow configuring restart policy in infra config
+Implement resources for creating and referencing auth services
+Submit enmasse OLM package to operator hub
+[#2390] : Update build and images to java 11
+respin images to include the systemd CVE-2019-6454 fix from RHSA-2019:0368
+"[console] Create pattern fly 4 ""hello world app"" (Go) in EnMasse (includes build/image/deployment etc)"
+[Console] Modify workflow
+[console] Click through to existing console + return navigation
+Create Upstream 0.26.3 Release
+[console] API Console-server api design
+[console] API Create console-server app go (includes build/images/deployment)
+[console] APIMock console-server
+[console] API Addressspace create
+[console] API Delete an addressspace
+[console] Superflicial reskin of existing console (for PF4 look and feel only)
+[console] Delete workflow
+[console] API Addressspace statistics + status
+"[console] Add filtering, pagination, sorting "
+[console] API Addressspace modify
+[console] API Add graph for messages delivered
+[systemtest] Test for ENTMQMAAS-1006
+Docs: fix two broken links
+[#2423] : Standard authentication permits creation of users with duplicate metadata.name
+respin images to include fixes for cve-2018-9568 RHSA-2019:0512
+Update to Broker 7.3
+Updates to Router 1.4
+Docs: 1.1 Release notes
+Docs: OLM installation
+Release 0.27.0
+[console] Operator for global console capable for both OpenShift and Kubernetets use-cases
+Create downstream images for new console images
+Refactor authentication in old console - OAuth (for openshift) and OpenId (for Kubernetes)
+[Console] Refactor authorization in the old console
+[console] Global console system tests
+PR against Pusher/oauth-proxy to support upstream-ca (port feature from openshift/oauth-proxy).
+As a System Admin I want to IoT CRD - config that is specific to IoT that needs to be edited after you install
+As a System Admin I want to Install IoT using an Operator
+As a Developer I want to Send events data from device outside of the cluster using MQTT over TLS and receive it in business application
+As a Developer I want to Send events from device outside of the cluster using MQTT over TLS and receive it in business application
+As a Developer I want to Send telemetry data from an HTTP over TLS device outside of the cluster and receive it in business application
+As a Developer I want to Send telemetry data from an MQTT over TLS device outside of the cluster and receive it in business application
+As a Developer I want to HTTP receive events that have occured while i was disconnected
+As a Developer I want to MQTT receive events that have occured while i was disconnected
+As a Tenant Admin I want to Delete business application credentials for an IoT tenant
+As a Tenant Admin I want to Set an expiry for device credentials
+As a Tenant Admin I want to Set new password for a device
+As a Tenant Admin I want to Delete an IoT project
+As a Tenant Admin I want to Create a new IoT project with managed address space
+[console] Enhance Add Create Addressspace wizard
+[Console] Share access token cookie between global console and address space console
+Docs: Add IoT docs to Evaluating guide (Tech Preview)
+Docs: Installing using operator catalog
+Docs: replace downstream Console image
+Docs: Console concept information
+Docs: new downstream-only installation assembly
+License metadata problems in three images (GC-1 - Licenses MUST be checked and compliant with the Legal requirements.)
+Remove root group membership from java based images (Least privileges)
+Service export option for endpoint information is not documented
+[#2714] : Allow setting security context of pods using persistent volumes
+[#2718] : Allow specifying label selectors for broker persistent volume claims
+[#2716] : Selecting which address plans to include using pattern matching
+[#2715] : Create service monitor cluster role
+Use Broker 7.2.4 with Online 1.1.0
+amq-online-1-console-init license metadata in incorrect location
+[console] Continuous updates of the message instances items list
+Docs: Fix link at beginning of Using the Red Hat AMQ Console
+Console redeploys after first addressspace is created
+Missing logo in the address space console (downstream)
+Rename MQTT Gateway and LWT images follow tech preview conventions
+Docs: Crop bottom of Console image
+Docs: Missing command for applying example roles
+Docs: New upgrading step needed for checking router pods
+Docs: Missing IoT section
+[#2778] : Global console create address space screen uses wrong label
+[#2771] : oauth-proxy in crash loop after minishift restart
+[#2763] : Web Console in invalid state when empty
+Docs: IoT bug fixes to docs
+[#2779] : Namespace of address spaces and addresses is wrong in Grafana
+[#2736] : Correct console operator error handling
+[#2785] : sso-cookie secret not generated reliably
+[#2741] : Further console operator improvements
+Deployment steps on minishift
+[#2810] : Guard against unexpected queue depth values (ARTEMIS-1982) when determining if a Broker is drained
+Infinispan not productised.
+Docs: Fix code rendering issue for Python client example
+AMQ Online DLQ support behaves oddly
+OpenWire client appears to succeed when using an undefined queue
+Broker storage is ephemeral
+AMQ Online console -- a queue's 'messages out' can exceed 'messages in'
+Change productized images to use ubi7:7-released as base image
+Docs: Define {ProductMonitoringNamespace} in downstream docs
+Doc: Upgrading procedures
+Docs: Fix misspelling/minor edits in Monitoring procedure docs
+Address space console - refresh
+PF4 header
+Address Space Title bar & Tabs
+Address List - display addresses
+About Box
+Create new address
+Delete address
+Address List - expanded view
+Connection List - display connections
+Address List - filtering
+Connection List - expanded view
+Include address space console artifact in the global console
+Connection List - filtering
+global console should only enable address spaces if amq online is deployed
+Docs: Remove Broker 7.2.4 note from RNs
+Docs: document known issues and one workaround for 1.1.1 RNs
+[#2843] : Upgrade of pre 1.1 authentication services not properly handled within the authentication service operator
+standard-authservice should be postgres backed
+Broker statefulsets not configured to use persistent volume
+AMQ Online OpenWire inconsistent produce/consume behaviour
+Address List - edit plan
+Release AMQ Online 1.1.1
+Release AMQ Online 1.1.2
+Release AMQ Online 1.0.2
+Create test ensuring message persistence
+Existing messaging users lost when upgrading from AMQ Online 1.0 to 1.1 (Ansible)
+Existing messaging users lost when upgrading from AMQ Online 1.0 to 1.1 (bundle)
+No out of the box mechanism to create a standard authentication service backed by postgres
+mqtt images should be tech-preview in the repo
+Docs: Link to Red Hat Container Catalog no longer works
+Broker statefulsets not configured to use persistent volume [cloned for 1.0]
+"[#2823] : Addresses stick in unready state with ""Unexpected token Q in JSON at position 0"" reported in agent log"
+Ensure com.fasterxml.jackson 2.9.9 is productised
+Docs: YAML install proc missing a step
+Standard auth service does not actually use write users to PostgreSQL
+Addressspaces aren't being upgraded when going from 1.0 to 1.1
+[#2868] : Upgraded addressspaces do not pick up new image or deployment configurations
+[#2865] : Upgraded addressspaces are not shown active in Console
+missing messagingusers api resource
+As a System Admin I want to Create plans and infra configs using GUI tooling
+As a System Admin I want to Create and delete addresses in an address space without those addresses being visible to the tenant
+As a System Admin I want to Create plans and infra configs using command line tooling
+As a Tenant Admin I want to Create a messaging user for a Kafka Address Space
+"As a Tenant Admin I want to Create an address space which takes all its address, authentication and authorisation configuration from a different address space and forms a single logical network "
+As a Tenant Admin I want to Create a Topic within a Kafka Address Space
+As a System Admin I want to Define plans and inffra configs for Kafka Address Space
+As a Tenant Admin I want to Create an address space which provides the ability to access a managed Kafka cluster
+License file required in console-httpd
+Test AMQ Online 1.2.0 against OCP 4.1
+Upgrade from 1.0.1 -> 1.1.1 does not upgrade multiple broker for standard address space
+Upgrade from 1.0.1 -> 1.1.1 - standard auth service does not start
+[#2873] : Router pods left un-upgraded after AMQ Online upgrader
+Productize release candidate & handoff to QE
+Docs: RNs: Document workaround for loss of messages upon pod restart
+Docs: remove release template upgrade procedure
+[Test Case] Persistence of durable topic subscriptions
+[Test Case] Upgrade tests for micro releases (1.1.(n-1) => 1.1.n)
+Docs: add link to Support article in RNs
+Docs: Update article URL for latest release zip
+Docs: Fix wording in Configuring an address space certificate provider
+Provide easy way for the user to determine which version of AMQ Online is running
+Productize upstream Hono components (1.0-M3)
+Infinispan transitive dependencies not productised.
+[#2921] : Cannot control image pull policy applied to router/broker pods.
+[#2864] : Allow liveness/readiness probe settings to be overridden from infraconfig
+[#2855] : AddressSpace console does not load with custom endpoint
+[#2927] : Remove supefluous DLQ artemis configuration and turn off max-delivery-attempts
+[#2925] : Messages lost from queue when consuming application using prefetch > 10 repeatedly disconnects abruptly
+Adapt Global Console to watch addressspace rather than poll
+[#2777] : Address space console should show addressspace name (and namespace)
+Placeholder for better PATCH remediation
+Placeholder for systemtest remediation
+Upgrade to latest Router
+Update to latest Broker
+Incorporate important python advisories (RHSA-2019:1587/RHSA-2019:1481)
+Upstream release 0.28.2
+Docs: Uninstalling AMQ Online that has been installed using OLM
+Docs: Upgrading from 1.2 to 1.3 (OLM)
+Docs: editing address space using the Console
+Docs: Need latest AMQ Online console screenshot
+console dashboard URLS provisioned in 1.0.GA do not work once an upgrade to 1.1.1.GA
+Docs: Reorganizing the Configuring AMQ Online chapter
+Release 0.28.2 into Operator Hub
+Brokers fail when installed on OCP 4.1 in openshift-operators namespace
+iot-device-registry pod goes into crash loop back-off when installed in openshift-operators (or via OLM)
+[doc] Broken links in downstream documentation
+Docs: Investigate best way to fix a broken link when a module is shared between two guides
+Docs: improve wording in infrastructure config procedure file
+Provide netty-tcnative to the Broker by way of the broker plugin JAR
+Default standard auth to use persistent volume
+Docs: Fix wording in Adding an address using the Console procedure
+Docs: Edit RNs text for 1.1.x
+Docs: how to uninstall {ProductName} using Ansible
+Resolve OperatorHub scorecard issues
+Docs: 1.2 release notes
+"Docs: Sweep for ""namespace"" in OpenShift docs"
+Docs: add a sentence to Upgrading section
+Make standard-auth use a persistent claim by default.
+[#2863] : Resources not deleted uninstalling AMQ Online in ocp4 using OLM
+Dashes in metric names (amp-online) are incompatible for Prometheus naming conventions
+Docs: Upgrading section: Need to adjust some version numbers in workaround text for 1.2.0
+Docs: Fix uninstalling assembly so Ansible option is OpenShift only
+"[#3034] : Address space console reports ""Server connection lost"" after 60s of inactivity when deployed to AWS "
+Docs: fix formatting on OLM installation example code
+Broker image name set incorrectly in OLM metadata
+"[#3050] : Left navigation item 'Addresses', is not selected by default"
+Docs: 1.2 RNs: Fix ambiguity around MQTT on standard address space in TP
+Docs: Spelling error in YAML file
+"Docs: Titles are switched on ""Address space example exposing endpoints externally"" subsections"
+Upgrade quay.io/integreatly/application-monitoring-operator to new release
+Broken link in AMQ Online 1.2 on OpenShift Container Platform Release Notes
+Docs: How to watch OpenShift Resources using the Kubernetes API
+Implement authentication for device registry management API
+Properly clean-up device registry resources
+Device registry credentials operations should not handout secrets
+Implement device registry management API backed by Infinispan
+Adopt new command and control addressing
+Add LoRaWAN protocol adapter
+Add Sigfox protocol adapter
+Improve IoT operator architecture
+Move IoT operator from gc to finalizer
+Implement provided downstream strategy
+Add new protocol adapters
+Docs: add IoT introductory concept info
+Docs: Document how to do external auth service overrides
+Docs: How to override the default value for the probe timeout on the broker
+Performance of creating addresses is degraded after creating 7-8k addresses
+Docs: Allow override of certs for external auth
+Allow Addresses to be sorted by message count
+Sometimes the MessagingUser resource never becomes available to client-go
+Addresses become stuck while creating
+Broker address space should indicate STOMP protocol is supported
+[#3133] : enmasse-operator goes OOM in a system with many addresses
+Performance of creating addresses is degraded after creating 7-8k addresses on 1.2.1
+[#3158] : Setting per-address max TTL
+[#3157] : Add support for per-address limits in broker
+"[#3156] : Add support for per-username connection, session and link limitations"
+[#3159] : Setting max message size for the router
+Script for performing restart of EnMasse for respins and hotfixes
+Docs: no upgrade for IoT in 1.3
+Docs: Update RNs for 1.2.2
+Permissioning with groups is ineffective
+Allow configuring the SSL provider for broker connectors
+[#3221] : Address disappear when created immediately after address space
+[#3150] : Add support for external bridges
+Docs: Update OLM installation docs (install into own namespace)
+"Docs: Change ""OpenShift Container Platform"" to ""OpenShift"" in book titles"
+Docs: move OLM installation info to Installing guide
+Docs: Remove workaround docs for restarting a router pod
+Docs: 1.3 RNs
+Docs: add DLQ explanation
+Docs: deleting an address space using the command line
+Docs: Change RNs title to reflect new CCS guidelines
+Device registry fails to encrypt plain passwords
+Docs: Operations procedures docs fixes
+Docs: add IoT diagram to downstream docs
+[#3313] : Get rid of agent and standard-controller 'duality'
+Consider audit requirements for operations such as purge
+Add metrics descriptions to docs
+AMQ Console wireframe update based on the customers and PatternFly Team feedback
+Test - please ignore
+[#3355] : Router mesh status check
+Docs: Add sizing guidelines to downstream docs
+Docs: fix instances of OpenShift 4.x
+[#3369] : Add a cache for address-spaces
+[#3368] : Create common queries
+[#3367] : Add a cache for the namespaces
+[#3366] : Initial console-graphql component
+[#3376] : Add pagination/filtering/ordering to all objects
+[#3379] : Add mutation query – deleteAddress
+[#3373] : Cache the connections and link information
+[#3370] : Create address-space queries
+[#3372] : Create addresses queries
+[#3378] : Add mutation querry – createAddress
+[#3377] : fix missing resourcesManager in olm test
+[#3374] : Add the metrics
+[#3371] : Add a cache for addresses
+[#3375] : Create connection query
+[#3381] : Add mutation query for purge address
+[#3390] : Remove responsibility from the enmasse-operator for updating the oauth redirects
+[#3389] : Remove server side support for  agents AMQP management
+[#3384] : Add mutation query – patchAddressSpace
+[#3386] : Add graphQL query for downloading messaging cert
+[#3388] : Remove the console-httpd sidecar
+[#3382] : Add mutation querry – createAddressSpace
+[#3380] : Add mutation query – patchAddress
+[#3383] : Add mutation query – deleteAddressSpace
+[#3385] : Add mutation query for connection close
+[#3387] : Add graphQL query for commandline cmds
+Docs: Document expected failure condition (router docs)
+Release AMQ Online 1.3.0
+Release AMQ Online 1.2.3
+[#3339] : Log per-request latency and status
+[#3309] : Agent router address reconciliation logs spurious error and loops needlessly
+[#3096] : Fix #3091: Make router connect/query timeout configurable
+[#3180] : Run address status check even if unable to get router status
+Docs: mimic downstream book structure in the upstream
+Update infinispan dependencies to most recent version
+Docs: update download zip attribute for 1.3
+[#3357] : Expose counter metrics for request status codes in api-server
+[#3410] : CSV manifest is missing configmap finalizers permission
+Create scalability test for device registry
+Create production-ready deployment for Infinispan
+Docs: add OLM install known issue and workaround to RNs
+Unable to assign multiple IoT projects to a single address space
+Deprecate old Command and Control addressing
+Provide better documentation structure and more content
+Define new IoT documentation structure
+Create device management guide
+Include management API specification in the documentation
+Docs: Replace standard and brokered address space diagrams
+Create example deployments (and document) of exposing Hono components metrics in EnMasse monitoring infrastructure
+Create source bundle
+[#3147] : Add status fields to CRs to pass operator hub validation
+[#3416] : Create design proposal for shared infrastructure
+"[#3407] : Use CRD instead of api-server for AddressSpace, Address"
+[#3407] : Use CRD instead of api-server for MessagingUser
+[#3419] : Implement per user view of the console-cache
+Productise fabric8 kubernetes-client 4.6.4
+[#3428] : Create service monitor for tenant metrics
+[#3429] : Create address space failed create/delete metrics
+[#3430] : Toolbar - Console UI
+[#3435] : Addresses List - Console UI
+[#3432] : Address Space List - Console UI
+[#3433] : Address Space Detail - Console UI
+[#3434] : Connection List - Console UI
+[#3436] : Connection Detail Page - Console UI
+Consider Vertx 3.8.3.redhat-00001 for 1.4.0
+"Create Command examples and introduce ""device applications"" section"
+Migrate jenkins from rhev to openshift and create casc
+Create cpaas QE test pipelines triggered by UMB message
+Docs: update Console screenshot
+Docs: 1.4 RNs
+Docs: IoT docs additions to service admin and tenant guides
+[#4514] Docs: How to extract a certificate for a client
+Docs: Address space certificate provider configuration examples
+Docs: Define address space plans for address spaces which share a single network of routers and brokers
+"Docs: Create an address space with a plan that allocates no specific resources to an address space, but instead uses shared infrastructure which is scaled dynamically based on aggregate demand"
+Docs: View on a single screen all the address spaces which I can administer
+Console UI tweaks to Create Address wizard
+have hostname in online doc code examples match the real hostname for the service
+"Create a new Address Space Type which provides broker-specific functionality (e.g. local transactions, message selectors, message grouping) based on Artemis"
+Document EnMasse approach to Authentication
+[#298] : Update Artemis startup scripts to support brokered address space
+[#284] : Instantiate template for brokered address space type in controller for brokered address space
+[#196] : Queue scheduler fails to create queue on broker
+[#194] : Use TLS for broker shutdown hook
+[#200] : enmasse.broker.forwarder.ForwarderControllerTest > testBrokerReplicator FAILED
+Implement Distribution of certificates and enforcing use of certs for internal connections
+Setup upstream CI on Jenkins
+Containerize keycloak & plugins
+Define long running tests
+Use authorization to prevent messaging clients calling management in Brokered Address Space
+[#271] Add SASL delegation to Artemis
+"[#275] : Console Server: Make source of stats, source of addresses pluggable"
+[#278] : React to changes in the address definitions to ensure broker is correctly configured
+[#220] : Console unable to authenticate with keycloak
+[#514] : System-tests: create testCreateDeleteUsersLong
+[#457] : Upgrade to Proton 0.18.0
+[#136] : Use persistent volume claims by default
+router to support amqp-management notifications
+[#88] : Store test reports and openshift logs on bintray
+Add support to system tests for creating/deleting users
+Document address model proposal
+Certificiate management - TLS Ingress support (for Kubernetes as opposed to openshift)
+[#548] : System-tests: framework(clients tests): add comments what value can be set for each parameter
+[#100] : Add support to address controller for configuring authentication services
+Service Broker  implementation
+[#279] : Update console to work seamlessly with brokered address space
+[#138] : Add web console tests for enmasse-console
+[#277] : List and watch kubernetes address configmaps in controller for brokered address space
+alter router to allow groups for a connection to be retrieved as part of the authentication exchange rather than from the configured policy
+switch to use AMQ6 docker/openshift startup script for AMQ7 artemis image
+[#441] : System-tests: brokered: create tests with validation of the cert presented by the messaging service
+Add support for new bridging address type in native/standard address-space (ragent needs to react to that)
+"support broker address-spaces with plan non-durable, durable"
+"Keycloak Plugin - send authid, groups, OAUTH2 token? in open frame"
+[#414] : Add support for OAUTH2 authentication to Keycloak plugin
+Keycloak Plugin - TLS client cert authn / management
+Get auth delegation plugin into router image
+[#111] : Add readiness probe to address controller
+[#460] : Create systemtests for open service broker api
+[#436] : System-tests: brokered: extend brokered jms TopicTest about shared/non-shared durable subscription
+[#472] : System-tests: create tests for large messages
+[#303] : rename console to agent
+[#125] : No re-try when creating a namespace
+[#385] : Address-controller is restarted with 'Error syncing pod' event and no additional info in log
+Unable test io.enmasse.systemtest.brokered.clients.rhea.MsgPatternsTest.testMessageSelectorTopic
+[#361] : System-tests: brokered/standard: internal components communication
+Document design for distribution of certificates / ensuring services trust the certificates
+[#365] : System-tests: brokered/standard: authorization tests
+[#403] : Add the ability to use AMQP over WebSockets to a route on port 443
+update console to allow authorisation to be specified on addresses
+[#357] : broker in 'brokered' address space is not able to start due to: Attempting to obtain lock for directory: (/var/run/artemis//artemis-1)
+[#422] : Use proper return codes on success and failure in address controller
+Configure CI to run dowstream tests from QE against upstream
+[#186] : frequent loss of TLS connections
+Release Messaging Images
+Is mqtt a namespace type - Gives a way to configure mapping and specify plan
+Create REST API for creating/updating/deleting address spaces
+Authentication
+Create product build artifacts
+[#474] : Support multiple address controllers in the same OpenShift cluster
+"implement distinct address-space-controller for artemis-broker address-space, that creates or deletes queues on the broker to match the desired addresses"
+[#123] : Fix unstable test enmasse.queue.scheduler.ArtemisTest.testManagement
+consolidation of node.js code
+Use kubernetes RBAC instead of deprecated OpenShift RBAC
+[#526] : System-tests: November list of disabled tests
+"Standard set of plans for all address types (xs,s,m,l,xl)"
+alter broker to allow groups for a connection to be retrieved as part of the authentication exchange
+[#488] : System-tests: Implement long running tests
+Perform scale testing on lab hardware
+Keycloak Plugin - use more SHA-1 suitable credential storage algorithm
+[#402] : Support HTTPS in console
+Extract UI tooltips from ascii doc files
+[#231] : improve system-tests regarding to Address Space Tests
+Document design proposal for authorisation
+alter configuration schema to have a sasl-profile (similar to ssl profile)
+Add ability to retrieve address definitions
+[#523] : SystemTests: brokered/standard: new test for keycloak persistent storage
+[#456] : Upgrade to Artemis 2.4.0
+[#446] : System-tests: Selector tests for brokered address space
+Setup CI for product repositories
+[ #408]: System-test: Implement java client executor (cli-java)
+[#539] : System-tests: createtestAuthSendReceiveLong
+[#395] : Update Keycloak dependency to version 3.3.0
+document the build components making up A-MQ MaaS
+[#113] : Generalize scripts that wait for address controller and addresses to be ready
+[#109] : Fix unstable test enmasse.discovery.DiscoveryTest.testDiscovery
+[#337] : System-tests: brokered: test JMS client
+[#513] : System-tests: create testCreateDeleteAddressesWithAuthLong
+[#394] : System-tests: Create external clients executor
+[#102] : Rework exception handling in address controller
+[#106] : Fix unstable test enmasse.config.service.amqp.AMQPServerTest.testSubscribe
+Create design doc and test plan for Brokered Address Space
+Make console work for MQTT (see below re is mqtt a namespace)
+[#280] : brokered address space: Update address status based on status of address in Broker
+[#493] : Enable HTTPS for restapi and console routes
+[#197] : Use TLS for router-metrics
+[#110] : Enabling MQTT gateway to pass username/password
+Create user facing doc for authentication/managing users
+[#282] : Write systemtests for brokered address space
+Define service accounts needed for components
+reporting system-tests results into Polarion tool
+update address-controller to support new address model
+[#429] : 'Message not accepted' after sending message to address which is created/removed in loop
+[#103] : Add none authentication service
+The group id for artemis brokers used for queue storage does not sufficiently discriminate between pooled and non pooled ids
+Identify gaps in system testing wrt Address Model
+[#466] : Make address space type plans configurable
+remove colocated routers
+Add support for offline development (building images and pushing directly to local OpenShift instance)
+[#437] : System-tests: brokered: create test with scaling broker deployment up/down
+[#195] : Use TLS for topic-forwarder
+[#468] : Display errors in console
+Add ability to get group and auth*id* via routers delegating sasl plugin
+support creating address-space of 'artemis-broker' type in address-controller
+Parameterize default docker images for openshift templates
+update ragent to support new address model
+[#235] : implement new test regarding to #220 issue : Console unable to authenticate with keycloak
+[#355] : User: test does not have permission='CREATE_NON_DURABLE_QUEUE'
+[#210] : implement new System-tests: Scaling tests
+Technical Debt Reduction
+[#406]: System-test: Implement rhea client executor (cli-rhea)
+update systemtests to use new address model
+Configure JMS TCK testing on internal Jenkins instance
+[#339] : System-tests: brokered: extend authentication tests
+Add support for maintaining endpoints and address space readiness for brokered address space
+[#336] : System-tests: brokered: test durable subscribers
+AMQP Management for Artemis
+[#316] : create documentation for system tests
+have artemis-broker specific address-space-controller configure artemis roles to match properties on addresses
+[#208] : implement new Stress-tests: Separate from system-tests
+[#462] : Use persistent volumes for keycloak
+[#459] : Upgrade router to 1.0
+[#405]: System-test: Implement Abstract client
+update base image for router to use proton 0.18
+[#334] : test create/delete of brokered address space
+Allow tooltips for brokered address space
+create patternfly pages for address ui
+Unstable test issues
+[#314] : Address Controller REST API is tied to schema for standard address space
+don't use default deployer service account
+[#340] : System-tests: brokered: webconsole tests
+"Console review (what are we showing, how are we showing it, where do we get the data)"
+System test deployment to support Keycloak auth
+[#499] : System-tests: framework: fetch the restapi cert
+[#269] : Enable mqtt tests for authentication service tests
+providing way to monitor connection and link metrics
+[#486] : System-tests: count of created brokered address spaces should be reduced
+[#464] : Add HTTPS support for standard authentication service
+Create deployment & service template for keycloak
+Add support to Address Controller for brokered address space type and address types to java model
+Define console tests
+[#417] : Authenticate /v1/addressspaces REST APIs using RBAC
+allow for assigning an existing keycloak/domain to the address-space
+[#338] : System-tests: brokered: tests for particular supported features in brokered address space
+Implement external client executor
+Move source to single git repo
+improve system-tests regarding to Address Tests
+update console to support new address model
+Create template for brokered address space
+[#484] : System-tests: address-controller REST API Authentication tests
+[#398] : remove express dependency
+[#524] : System-tests: longtime: create new test for user authentication before/after restarting keycloak
+[#341] : Add external TLS support to broker in brokered address space
+[#134] : Refactor MQTT gateway and LWT unit tests to run without router
+[#281] : Add support for different address space types to systemtest framework
+[#236] : fix unstable QueueTest.testScaledown
+[#283] : Document brokered address space
+authentication & authorisation of admin users to console
+[#458] : System-tests: brokerred address space transaction on queue
+[#407]: System-test: Implement proton-python executor (cli-proton-python)
+[#313] : add system tests wrt durability of queues and topics for standard addr space
+[#304] : separate system-tests to full and reduced set of tests
+Architectural review of subserv
+[#517] : System-tests: create testCreateDeleteAddressSpaceViaAgentLong
+Inter-cluster router networks
+Create copy of upstream repositories
+[#374] : address-controller is not really in ready=true state
+[#325] : Migrate build files to maven
+[#122] : Console crashes if none-authservice crashes
+[#335] : System-tests: brokered: test address types
+[#463] : Create initial admin credentials per realm for keycloak
+[#172] : Fix unstable mqtt systemtests
+update service broker to support new address model
+add type and plan to address-space in address controller (rename instance to address-space?)
+[#105] : hierarchical topics (and wildcarding) broken (again!)
+[#467] : Make address type plans configurable
+Define tasks for adding downstream CI
+[#209] : implement new System-tests: Failure tests
+[#473] : Limit the scope of privileges required by address-controller
+[#465] : Report error events in controllers using k8s events
+[#107] : Fix unstable test enmasse.broker.prestop.TopicMigratorTest.testMigrator
+[#346] : address-config allows to create already created address
+update configserv to support new address model
+[#324] : Use rbac policies for restricting access to address controller
+Report metrics from EnMasse 'admin' components
+[#418] : Authenticate /v1/addresses REST API using RBAC
+merge ragent and console into high-level address manager supporting this protocol
+Integration testsuite with Artemis on a Messaging as a Service scenario
+define the set of properties through which group based permissions are defined on an address have ragent update policy to match properties on addresses
+[#442] : System-tests: create basic message patterns tests with external clients
+Support using ThirdPartyResources for storing Address and Instance resources
+[#547] : System-tests: multitenant: Support multiple address controllers in the same OpenShift cluster
+Evaluation of capacity and capability of hawkular: i.e. how many metrics can we store? What dimensions are possible?
+Define process for testing productised images
+update queue-scheduler to support new address model
+Add system tests for Service Broker
+[#207] : implement new System-tests: Tests via the service broker api with service catalog
+[#515] : System-tests: create testSendReceiveWithCreatingAlreadyCreatedAddressesLong
+[#516] : System-tests: create testCreateDeleteAddressesViaAgentLong
+[#356] : broker in 'brokered' address space is not able to start due to NPE
+Monitoring
+[#112] : Add readiness check for dispatch router
+Deploy system tests in multi-tenant mode
+[#387] : SystemTests: message grouping tests
+[#285] : Configure Joram tests to run against brokered address space with JMS client
+Complete MQTT support
+"As a MaaS Tenant Admin, purge broker destinations"
+"MaaS Service Admin, create separate namespaces"
+"MaaS Service Admin, create users and assign roles."
+"As a MaaS Service Admin, monitor and view metrics"
+"As a MaaS Service Admin, Manage addresses/destinations"
+"As a MaaS Tenant Admin, manage users"
+"As a Maas Tenant Admin, monitor metrics"
+"As a Maas Tenant Admin, manage addresses/destinations"
+"As a Monitor, view the status of addresses"
+As a Monitor view address metrics
+"As a Monitor, view metrics about connections at scale"
+"As a Monitor, view metrics about a particular user."
+"As a MaaS Service Admin, User authentication methods"
+"As a developer, send/receive messages using AMQP 1.0"
+"As a developer, send/receive messages using MQTT 3.1.1"
+"As a developer, send/receive messages using AMQP over web sockets"
+"As a developer, send/receive messages using MQTT 3.1.1 over web sockets"
+"As a Developer, I need to use JMS style transactions"
+"Provide a unified mechanism for client applications to authenticate themselves against enMasse, providing multiple mechanisms for providing identity (e.g. OAUTH2, username/password)"
+Provide a mechanism for assigning and enforcing permissions to identities
+Internal communications between enmasse components should be secured
+"As a Tenant Admin, I need to delete destinations"
+"As a MaaS Service Admin, create a broker to house multiple addresses"
+"As a developer, send/receive messages using the CoAP protocol."
+"As a developer, send/receive messages using LWM2M protocol"
+"As a Developer, I need to use XA transactions."
+"As a MaaS Admin, designate addresses as shareable or shared broker"
+"As a MaaS Tenant Admin, create a broker to house multiple destinations"
+"As a MaaS Service Admin, Scale addresses"
+Certificate Management - ACME Support
+"As a Developer, self-provisions destination/address"
+"As a MaaS Tenant Admin, designate addresses as shardable or as an address on a shared broker"
+"As a Developer, I need to designate a destination as shareable when I self provision"
+Provide mechanisms for bridging addresses between address spaces
+"Define and implement a conceptual model for MaaS in terms of (Typed) Address Spaces, (Typed) Addresses, and Plans"
+"As a MaaS Service Admin, Manage Routes"
+Review other potential sources of tests for upstream (e.g. Qpid examples)
+Create user facing documentation for ACME support
+Add automated test for ACME certificates
+Add support for ACME templates and deployment scripts
+Add support for ACME to AddressController
+Design / Architecture documentation for ACME certificate support
+Figure out how to advertise or discover exposed addresses
+Broker with clustering and HA
+Broker with clustering
+define common schemas for all our address types
+amqp-management protocol enhancements
+allow brokers to register themselves as amqp-management resource servers with the router network
+Console Architectural review (how we might support four different deployment types)
+Manage brokers via router network
+"Alerts/Notifications (broker, router)"
+AMQP address discovery
+Determine actual cost (in monetary terms) for given messaging loads on different public clouds
+Performance and scalability testing and improvement
+Ability to create config for other broker-specific features (e.g. diverts?)
+Integration of log collection and querying
+provide more address centric view
+"[#368] ragent: failing test ""forked process"" with rh-nodejs4, rh-nodejs6"

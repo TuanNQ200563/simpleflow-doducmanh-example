@@ -1,0 +1,26 @@
+tuning:
+  config:
+    num_epochs:
+      type: int
+      lower_bound: 10
+      upper_bound: 50
+    batch_size: 
+      type: int
+      lower_bound: 32
+      upper_bound: 128
+    learning_rate:
+      type: float
+      lower_bound: 0.0001
+      upper_bound: 0.01
+    en_units:
+      type: int
+      lower_bound: 100
+      upper_bound: 500
+    dropout: 
+      type: float
+      lower_bound: 0.1
+      upper_bound: 0.5
+  optimize: 
+    metric: purity
+    mode: maximize
+  num_trials: 10
