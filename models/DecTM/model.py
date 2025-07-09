@@ -108,12 +108,13 @@ class Model(DecTM):
 def train_model(
     X_train: np.ndarray,
     y_train: np.ndarray,
-    # HYPERPARAMS FOR TRAINING
+    # === HYPERPARAMS BEGIN ===
     num_epochs: int = 10, 
     batch_size: int = 64, 
     learning_rate: float = 0.001,
     en_units: int = 200,
     dropout: float = 0.4,
+    # === HYPERPARAMS END ===
 ) -> Model:
     model = Model(
         vocab_size=X_train.shape[1],
