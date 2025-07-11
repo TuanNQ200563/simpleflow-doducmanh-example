@@ -237,7 +237,7 @@ def train_model(
     X_train: np.ndarray,
     y_train: np.ndarray,
     # === HYPERPARAMS BEGIN ===
-        num_epochs: int = 10,
+    num_epochs: int = 10,
     batch_size: int = 64,
     learning_rate: float = 0.001,
     en_units: int = 200,
@@ -257,7 +257,7 @@ def train_model(
     weight_ot_doc_cluster: float = 1.0,
     weight_ot_topic_cluster: float = 1.0,
     # === HYPERPARAMS END ===
-) -> Model:
+) -> tuple[Model, dict]:
     model = Model(
         vocab_size=X_train.shape[1],
         num_topics=num_topics,
@@ -279,16 +279,16 @@ def train_model(
     )
     model.to("cpu")
     model.train()
-    
+
     if hasattr(X_train, "toarray"):
         X_train = X_train.toarray()
-        
+
     X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
     dataset = torch.utils.data.TensorDataset(X_train_tensor)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-    
+
     for epoch in range(num_epochs):
         total_loss = 0.0
         for (batch,) in tqdm(dataloader, desc=f"Epoch {epoch + 1}/{num_epochs}"):
@@ -302,7 +302,28 @@ def train_model(
 
         print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {total_loss / len(dataloader):.4f}")
 
-    return model
+    hyperparams = {
+        "num_epochs": num_epochs,
+        "batch_size": batch_size,
+        "learning_rate": learning_rate,
+        "en_units": en_units,
+        "dropout": dropout,
+        "num_topics": num_topics,
+        "embed_size": embed_size,
+        "weight_loss_ECR": weight_loss_ECR,
+        "beta_temp": beta_temp,
+        "sinkhorn_alpha": sinkhorn_alpha,
+        "sinkhorn_max_iter": sinkhorn_max_iter,
+        "OT_max_iter": OT_max_iter,
+        "stopThr": stopThr,
+        "alpha_noise": alpha_noise,
+        "alpha_augment": alpha_augment,
+        "num_clusters": num_clusters,
+        "weight_ot_doc_cluster": weight_ot_doc_cluster,
+        "weight_ot_topic_cluster": weight_ot_topic_cluster,
+    }
+
+    return model, hyperparams
 
 
 def predict(model: NewMethod, X_test: np.ndarray, batch_size: int = 64, device: str = "cpu") -> np.ndarray:
