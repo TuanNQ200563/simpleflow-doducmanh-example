@@ -148,8 +148,17 @@ def train_model(
             total_loss += loss.item()
             
         print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {total_loss / len(dataloader)}")
+        
+    hyperparams = {
+        "num_epochs": num_epochs,
+        "batch_size": batch_size,
+        "learning_rate": learning_rate,
+        "en_units": en_units,
+        "dropout": dropout,
+        "num_topics": len(set(y_train)),
+    }
 
-    return model
+    return model, hyperparams
 
 
 def predict(model: Model, X_test: np.ndarray, batch_size: int = 64) -> np.ndarray:
