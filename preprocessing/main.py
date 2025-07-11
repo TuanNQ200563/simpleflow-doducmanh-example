@@ -19,7 +19,7 @@ def clean_text(text: str) -> str:
     return text
 
 
-def transform_data(data: pd.DataFrame):
+def main(data: pd.DataFrame):
     data_raw = data.copy()
     
     # Clean the text data
