@@ -115,7 +115,7 @@ def train_model(
     en_units: int = 200,
     dropout: float = 0.4,
     # === HYPERPARAMS END ===
-) -> Model:
+) -> tuple[Model, dict]:
     model = Model(
         vocab_size=X_train.shape[1],
         num_topics=len(set(y_train)),
@@ -148,7 +148,16 @@ def train_model(
             
         print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {total_loss / len(dataloader)}")
 
-    return model
+    hyperparams = {
+        "num_epochs": num_epochs,
+        "batch_size": batch_size,
+        "learning_rate": learning_rate,
+        "en_units": en_units,
+        "dropout": dropout,
+        "num_topics": len(set(y_train)),
+    }
+
+    return model, hyperparams
 
 
 def predict(model: Model, X_test: np.ndarray, batch_size: int = 64) -> np.ndarray:
