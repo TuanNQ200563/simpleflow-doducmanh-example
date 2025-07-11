@@ -10,7 +10,7 @@ from ._model_utils import pairwise_euclidean_distance
 
 import numpy as np
 
-import tqdm
+from tqdm import tqdm
 import os
 
 
