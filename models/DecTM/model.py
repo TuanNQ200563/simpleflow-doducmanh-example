@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import torch.optim as optim
+import os
 
 from torch.utils.data import TensorDataset, DataLoader
 from tqdm import tqdm
@@ -115,7 +116,7 @@ def train_model(
     en_units: int = 200,
     dropout: float = 0.4,
     # === HYPERPARAMS END ===
-) -> tuple[Model, dict]:
+) -> Model:
     model = Model(
         vocab_size=X_train.shape[1],
         num_topics=len(set(y_train)),
@@ -148,16 +149,7 @@ def train_model(
             
         print(f"Epoch {epoch + 1}/{num_epochs}, Loss: {total_loss / len(dataloader)}")
 
-    hyperparams = {
-        "num_epochs": num_epochs,
-        "batch_size": batch_size,
-        "learning_rate": learning_rate,
-        "en_units": en_units,
-        "dropout": dropout,
-        "num_topics": len(set(y_train)),
-    }
-
-    return model, hyperparams
+    return model
 
 
 def predict(model: Model, X_test: np.ndarray, batch_size: int = 64) -> np.ndarray:
@@ -182,3 +174,31 @@ def predict(model: Model, X_test: np.ndarray, batch_size: int = 64) -> np.ndarra
             
     theta_matrix = torch.cat(all_theta, dim=0).numpy()
     return theta_matrix
+
+
+def save_model(model: Model, name: str):
+    save_data = {
+        'state_dict': model.state_dict(),
+        'vocab_size': model.fc11.in_features,
+        'num_topics': model.num_topics,
+        'en_units': model.fc11.out_features,
+        'dropout': model.fc1_drop.p
+    }
+    torch.save(save_data, name)
+        
+        
+def load_model(name: str) -> Model:
+    if not os.path.isfile(name):
+        raise FileNotFoundError(f"No such file: {name}")
+
+    checkpoint = torch.load(name, map_location='cpu')
+    
+    model = Model(
+        vocab_size=checkpoint['vocab_size'],
+        num_topics=checkpoint['num_topics'],
+        en_units=checkpoint['en_units'],
+        dropout=checkpoint['dropout']
+    )
+    model.load_state_dict(checkpoint['state_dict'])
+    model.eval()
+    return model
